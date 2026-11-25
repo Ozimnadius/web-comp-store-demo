@@ -87,8 +87,10 @@ export function section(kind, data, index = 0, storefront = false) {
   } : layout.title;
   if (options && (inlineChoices || kind==='brands-section')) head.append(options);
   if (kind === 'about-section') {
+    const aboutLink = demoAction(data.texts.at(-1));
+    aboutLink.href = '/catalog/#about-section';
     box.append(element('div','about'+(data.width<=768?' about--stacked':''),
-      element('div','about__copy',title,...data.texts.slice(1,-1).map(s=>element('p','',s)),demoAction(data.texts.at(-1))),
+      element('div','about__copy',title,...data.texts.slice(1,-1).map(s=>element('p','',s)),aboutLink),
       photo(data.photos[0],'Доставка заказа')));
   } else {
     box.append(head);

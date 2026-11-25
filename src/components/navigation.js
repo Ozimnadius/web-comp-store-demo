@@ -1,10 +1,18 @@
-import { button, choices, demoAction, element, icon, iconButton, notice } from './elements.js';
+import { button, demoAction, element, icon, iconButton, notice } from './elements.js';
 
 const navLabels = ['Бренды', 'Акции', 'Услуги', 'Компания', 'Блог', 'Информация', 'Контакты'];
 const categories = ['Смартфоны','Инструменты','Одежда на весну','Комплект сантехники','Набор для рыбалки','Диваны'];
 
 function catalogMenu() {
-  return notice('Каталог', choices(categories, 'account-menu'));
+  notice('Каталог', categoryLinks(categories));
+}
+
+function categoryLinks(labels) {
+  const links = element('nav', 'account-menu', labels.map(label => demoAction(label, 'choice')));
+  links.addEventListener('click', event => {
+    if (event.target.closest('a')) links.closest('dialog')?.close();
+  });
+  return links;
 }
 
 function storeSearch() {
@@ -19,7 +27,7 @@ function storeSearch() {
     const query = input.value.trim().toLocaleLowerCase('ru');
     const scope = form.querySelector('select')?.value;
     const hits = categories.filter(name => (!scope || scope === name) && name.toLocaleLowerCase('ru').includes(query));
-    notice('Результаты поиска', element('p','',hits.join(' · ') || 'Категории по запросу не найдены.'));
+    notice('Результаты поиска', hits.length ? categoryLinks(hits) : element('p','','Категории по запросу не найдены.'));
   });
   return form;
 }
@@ -70,7 +78,7 @@ export function header(width, home) {
       dark.setAttribute('aria-pressed', String(home.theme === 'dark'));
       modes = element('div', 'store-header__modes', light, dark);
     }
-    const navigation = choices(navLabels, 'store-header__nav', -1);
+    const navigation = element('nav', 'store-header__nav', navLabels.map(label => demoAction(label, 'choice')));
     const phone = element('span', '', '+7 100 000-00-00');
     if (home) {
       for (const label of ['Услуги', 'Компания']) navigation.children[navLabels.indexOf(label)].append(icon('down'));
@@ -81,7 +89,7 @@ export function header(width, home) {
       navigation, home ? element('div','store-header__contact',phone,callback) : [phone,callback],modes));
   }
   root.append(bar);
-  if (large) root.append(choices(categories,'store-header__nav',-1));
+  if (large) root.append(element('nav','store-header__nav',categories.map(label => demoAction(label, 'choice'))));
   return root;
 }
 

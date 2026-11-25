@@ -73,8 +73,23 @@ export function notice(title, content) {
   dialog.showModal();
 }
 
-export function demoAction(label, message = 'Адрес для перехода пока не задан.') {
-  return button(label, 'button', () => notice(label, element('p', '', message)));
+const destinations = new Map([
+  ['Бренды', 'brands-section'], ['Акции', 'sale-section'], ['Услуги', 'service-section'],
+  ['Компания', 'about-section'], ['О компании', 'about-section'], ['Блог', 'blog-section'],
+  ['Отзывы', 'review-section'], ['Обзоры', 'video-section'], ['Каталог', 'category-section'],
+  ['Возможности', 'feature-section'], ['Информация', 'about-section'],
+  ['Контакты', 'contacts'], ['Магазины', 'contacts'], ['Реквизиты', 'contacts'],
+  ['Заказать звонок', 'contacts'], ['Заказать', 'contacts'], ['Отправить резюме', 'contacts'],
+  ['Условия оплаты', 'contacts'], ['Условия доставки', 'contacts'], ['Гарантия на товар', 'contacts'],
+  ['Вопрос-ответ', 'contacts'],
+]);
+
+export function demoAction(label, className = 'button') {
+  const link = element('a', className, label);
+  link.href = ['Документы', 'Лицензии'].includes(label)
+    ? '/catalog/#certificate'
+    : '/#home-' + (destinations.get(label) || 'product-section');
+  return link;
 }
 
 export function badge(label) {

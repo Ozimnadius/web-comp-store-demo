@@ -71,7 +71,13 @@ export function card(kind, model, index = 0) {
       return wrap(media(),body(heading(t[0]),muted(words(t.slice(1)))));
     }
     case 'video': {
-      const play = button(icon('play'),'video__play',()=>notice(t[1],element('p','','В макете есть обложка. Видеофайл пока не подключён.')));
+      const play = button(icon('play'),'video__play',() => {
+        const video = element('video', 'video__player');
+        video.controls = true;
+        video.playsInline = true;
+        video.src = 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4';
+        notice(t[1], element('div', '', video, element('p', '', 'Демонстрационный ролик MDN.')));
+      });
       play.setAttribute('aria-label','Открыть видеоотзыв');
       return wrap(media(play,element('span','video__duration',t[0])),body(heading(t[1]),muted(t[2])));
     }

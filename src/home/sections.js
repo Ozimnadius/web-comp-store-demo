@@ -7,7 +7,11 @@ function banner(kind, master, spec) {
   const [left, , width, height] = spec.banner;
   const hero = kind === 'hero-section';
   const picture = photo(master.photos[0], hero ? 'Велосипедист на городской улице' : 'Акустика. Наслаждайтесь любимой музыкой');
-  const artwork = element('div', 'home-banner__art', picture);
+  const artwork = element(hero ? 'div' : 'a', 'home-banner__art', picture);
+  if (!hero) {
+    artwork.href = '/#home-sale-section';
+    artwork.setAttribute('aria-label', 'Подробнее об акциях');
+  }
   artwork.style.aspectRatio = width + ' / ' + height;
   if (hero) {
     const rider = photo(master.photos[1]);
@@ -63,6 +67,7 @@ export function homeSection(kind, spec, width, theme, switchTheme) {
     node = header(width, { theme, switchTheme });
   } else if (kind === 'footer') {
     node = footer(width);
+    node.querySelector('.store-footer__contacts').id = 'home-contacts';
     const catalog = element('a', 'store-footer__library', 'Дизайн-система');
     catalog.href = '/catalog/';
     node.querySelector('.store-footer__end').append(catalog);
@@ -91,6 +96,7 @@ export function homeSection(kind, spec, width, theme, switchTheme) {
     }
   }
   node.dataset.section = kind;
+  if (kind !== 'header' && kind !== 'footer') node.id = 'home-' + kind;
   node.style.setProperty('--pad-top', spec.padding[0] + 'px');
   node.style.setProperty('--pad-bottom', spec.padding[2] + 'px');
   const available = width - spec.padding[1] - spec.padding[3];

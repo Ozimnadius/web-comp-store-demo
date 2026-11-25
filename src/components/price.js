@@ -1,4 +1,4 @@
-import { button, demoAction, element, icon, notice } from './elements.js';
+import { demoAction, element, icon } from './elements.js';
 
 function promoField() {
   const input = element('input','form-field__input');
@@ -7,7 +7,7 @@ function promoField() {
 }
 
 function actionLink(label) {
-  return button(label,'text-button',()=>notice(label,element('p','','Адрес для перехода пока не задан.')));
+  return demoAction(label, 'text-button');
 }
 
 export function pricePanel(t,pic,index,cartButton) {
