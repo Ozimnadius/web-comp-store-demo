@@ -1,0 +1,183 @@
+{
+  "sample": [
+    {
+      "text": "Заголовок Баннера - H1",
+      "size": 42,
+      "weight": 500,
+      "line": 110.0,
+      "unit": "PERCENT"
+    },
+    {
+      "text": "Заголовок H1",
+      "size": 32,
+      "weight": 500,
+      "line": 142.0,
+      "unit": "PERCENT"
+    },
+    {
+      "text": "Pellentesque pellentesque eget tempor tellus. Fusce lacllentesque eget tempor tellus ellentesque pelleinia tempor malesuada. Pellentesque pellentesque eget tempor tellus ellentesque pellentesque eget tempor tellus.\nFusce lacinia tempor malesuada.",
+      "size": 16,
+      "weight": 400,
+      "line": 142.0,
+      "unit": "PERCENT"
+    },
+    {
+      "text": "Заголовок H2",
+      "size": 28,
+      "weight": 500,
+      "line": 142.0,
+      "unit": "PERCENT"
+    },
+    {
+      "text": "Заголовок H3",
+      "size": 24,
+      "weight": 500,
+      "line": 142.0,
+      "unit": "PERCENT"
+    },
+    {
+      "text": "Заголовок H4",
+      "size": 20,
+      "weight": 500,
+      "line": 142.0,
+      "unit": "PERCENT"
+    },
+    {
+      "text": "Pellentesque pellentesque tempor tellus eget fermentum. usce lacllentesque eget tempor tellus ellentesque pelleinia tempor malesuada. Pellentesque pellentesque eget tempor tellus ellentesque pellentesque eget tempor tellus.",
+      "size": 16,
+      "weight": 400,
+      "line": 142.0,
+      "unit": "PERCENT"
+    },
+    {
+      "text": "Заголовок H5",
+      "size": 18,
+      "weight": 500,
+      "line": 142.0,
+      "unit": "PERCENT"
+    },
+    {
+      "text": "Pellentesque pellentesque tempor llentesque pellentesque tempor tellus eget libero llentesque pellentesque tempor tellus eget libero tellus ementellentesque tempor tellus eget fermentum. usce lacllentesque eget tempor tellus \nEllenellentesque tempor tellus eget fermentum. usce lacllentesque eget tempor tellus ellenum.",
+      "size": 16,
+      "weight": 400,
+      "line": 142.0,
+      "unit": "PERCENT"
+    },
+    {
+      "text": "Заголовок H6",
+      "size": 16,
+      "weight": 500,
+      "line": 142.0,
+      "unit": "PERCENT"
+    },
+    {
+      "text": "Pellentesque pellentesque tempor llentesque pellentesque tempor tellus eget libero llentesque pellentesque tempor tellus eget libero tellus ementellentesque tempor tellus eget fermentum. usce lacllentesque eget tempor tellus \nEllenellentesque tempor tellus eget fermentum. usce lacllentesque eget tempor tellus ellenum.",
+      "size": 16,
+      "weight": 400,
+      "line": 142.0,
+      "unit": "PERCENT"
+    }
+  ],
+  "lists": [
+    [
+      [
+        "Лорем ипсум долор сит амет, консектетур адиписцинг элит.",
+        "Вивамус лобортрис ниси ат эрет вольутпат, ин темпус лигула.",
+        "Пеллентеске фейсибус нон лигула ут лобортрис.",
+        "Аликуам ут орци вивамус, фацилисис ингет маурис.",
+        "Морби феличитас фауцибус нон дуис, темпус велит.",
+        "Эгет темпус инсенсат вивамус, некуе нон.",
+        "Насцетур рисус комодо наци, ут лобортрис."
+      ]
+    ],
+    [
+      [
+        "Очистите поверхности",
+        "Точно измерьте",
+        "Равномерно приложите давление",
+        "Дайте высохнуть в течение необходимого времени",
+        "Подготовьте клей",
+        "Соберите все необходимые материалы",
+        "Выберите прочную рабочую поверхность"
+      ]
+    ],
+    [
+      [
+        "Гарантия качества",
+        "Легкий возврат",
+        "Быстрая доставка",
+        "Широкий ассортимент",
+        "Удобный интерфейс",
+        "Бонусы и скидки",
+        "Техподдержка 24/7"
+      ]
+    ],
+    [
+      [
+        "Примеры использования списков",
+        "Различные типы списков и их описание",
+        "Преимущества применения списков",
+        "Как списки упрощают восприятие информации",
+        "Ошибки при работе со списками",
+        "Типичные проблемы и способы их решения"
+      ]
+    ]
+  ],
+  "frames": [
+    {
+      "node": "24-3854",
+      "width": 1920,
+      "content": 1500,
+      "padding": 210,
+      "theme": "Тёмная · красный"
+    },
+    {
+      "node": "74-30210",
+      "width": 1920,
+      "content": 1296,
+      "padding": 312,
+      "theme": "Светлая · красный"
+    },
+    {
+      "node": "26-278",
+      "width": 1920,
+      "content": 1696,
+      "padding": 112,
+      "theme": "Светлая · синий"
+    },
+    {
+      "node": "74-33368",
+      "width": 1200,
+      "content": 1120,
+      "padding": 40,
+      "theme": "Светлая · синий"
+    },
+    {
+      "node": "77-13252",
+      "width": 1000,
+      "content": 960,
+      "padding": 20,
+      "theme": "Светлая · синий"
+    },
+    {
+      "node": "77-16410",
+      "width": 768,
+      "content": 728,
+      "padding": 20,
+      "theme": "Светлая · синий"
+    },
+    {
+      "node": "77-19568",
+      "width": 375,
+      "content": 355,
+      "padding": 10,
+      "theme": "Светлая · синий"
+    }
+  ],
+  "quote": [
+    "Цитата",
+    "Mauris aliquet ultricies ante, non faucibus ante gravida\nsed. Sed ultrices pellentesque purus, vulputate volutpat\nipsum hendrerit sed neque sed sapien rutrum laoreet\njusto ultrices. In pellentesque lorem condimentum dui\nmorbi pulvinar dui non quam pretium ut lacinia tortor.",
+    "— Someone famous Source Title"
+  ],
+  "review": "Константин Константинопольский Директор магазина Mauris aliquet ultricies ante, non faucibus ante gravida sed. Sed ultrices pellentesque purus, vulputate volutpat ipsum hendrerit sed neque sed sapien rutrum laoreet justo ultrices. In pellentesque lorem condimentum dui morbi pulvinar dui non quam pretium ut lacinia tortor."
+}

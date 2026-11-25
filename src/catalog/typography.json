@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Display/Hero 42-110",
+    "slug": "display-hero-42-110",
+    "size": 42,
+    "line": "110%",
+    "weight": 500,
+    "node": "261-113670"
+  },
+  {
+    "name": "Heading/H1 32-142",
+    "slug": "heading-h1-32-142",
+    "size": 32,
+    "line": "142%",
+    "weight": 500,
+    "node": "164-67847"
+  },
+  {
+    "name": "Heading/H2 28-142",
+    "slug": "heading-h2-28-142",
+    "size": 28,
+    "line": "142%",
+    "weight": 500,
+    "node": "164-67849"
+  },
+  {
+    "name": "Heading/H3 24-142",
+    "slug": "heading-h3-24-142",
+    "size": 24,
+    "line": "142%",
+    "weight": 500,
+    "node": "164-67850"
+  },
+  {
+    "name": "Heading/H4 20-142",
+    "slug": "heading-h4-20-142",
+    "size": 20,
+    "line": "142%",
+    "weight": 500,
+    "node": "164-67851"
+  },
+  {
+    "name": "Heading/H5 18-142",
+    "slug": "heading-h5-18-142",
+    "size": 18,
+    "line": "142%",
+    "weight": 500,
+    "node": "164-67853"
+  },
+  {
+    "name": "Heading/H6 16-142",
+    "slug": "heading-h6-16-142",
+    "size": 16,
+    "line": "142%",
+    "weight": 500,
+    "node": "164-67855"
+  },
+  {
+    "name": "Body/16 Bold-142",
+    "slug": "body-16-bold-142",
+    "size": 16,
+    "line": "20 px",
+    "weight": 600,
+    "node": "316-395411"
+  },
+  {
+    "name": "Body/16-142",
+    "slug": "body-16-142",
+    "size": 16,
+    "line": "142%",
+    "weight": 400,
+    "node": "164-67848"
+  },
+  {
+    "name": "Body/15-142",
+    "slug": "body-15-142",
+    "size": 15,
+    "line": "142%",
+    "weight": 400,
+    "node": "69-2334"
+  },
+  {
+    "name": "Body/14-142",
+    "slug": "body-14-142",
+    "size": 14,
+    "line": "120%",
+    "weight": 400,
+    "node": "138-40218"
+  },
+  {
+    "name": "Body/13-142",
+    "slug": "body-13-142",
+    "size": 13,
+    "line": "142%",
+    "weight": 400,
+    "node": "47-2173"
+  },
+  {
+    "name": "Body/12-142",
+    "slug": "body-12-142",
+    "size": 12,
+    "line": "142%",
+    "weight": 400,
+    "node": "65-2073"
+  },
+  {
+    "name": "Body/18-132",
+    "slug": "body-18-132",
+    "size": 18,
+    "line": "132%",
+    "weight": 400,
+    "node": "151-45540"
+  },
+  {
+    "name": "Button/14-21",
+    "slug": "button-14-21",
+    "size": 14,
+    "line": "21 px",
+    "weight": 400,
+    "node": "22-7"
+  },
+  {
+    "name": "Button/15-22",
+    "slug": "button-15-22",
+    "size": 15,
+    "line": "22 px",
+    "weight": 400,
+    "node": "261-115422"
+  },
+  {
+    "name": "Button/15 Bold-22",
+    "slug": "button-15-bold-22",
+    "size": 15,
+    "line": "22 px",
+    "weight": 600,
+    "node": "316-395411"
+  },
+  {
+    "name": "Button/16-16",
+    "slug": "button-16-16",
+    "size": 16,
+    "line": "16 px",
+    "weight": 400,
+    "node": "29-865"
+  },
+  {
+    "name": "Price/18 Bold-142",
+    "slug": "price-18-bold-142",
+    "size": 18,
+    "line": "142%",
+    "weight": 600,
+    "node": "65-2074"
+  },
+  {
+    "name": "Price/16 Bold-142",
+    "slug": "price-16-bold-142",
+    "size": 16,
+    "line": "142%",
+    "weight": 600,
+    "node": "85-32699"
+  },
+  {
+    "name": "Price/24 Bold-142",
+    "slug": "price-24-bold-142",
+    "size": 24,
+    "line": "32 px",
+    "weight": 600,
+    "node": "142-47209"
+  },
+  {
+    "name": "Label/Uppercase 10-23",
+    "slug": "label-uppercase-10-23",
+    "size": 10,
+    "line": "23 px",
+    "weight": 400,
+    "node": "19-52"
+  }
+]

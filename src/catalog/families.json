@@ -1,0 +1,1564 @@
+[
+  {
+    "slug": "logo",
+    "group": "Базовые элементы",
+    "title": "Логотип магазина",
+    "node": "29:920",
+    "variants": [
+      {
+        "id": "29:920",
+        "title": "Logo",
+        "width": 170,
+        "height": 40
+      }
+    ]
+  },
+  {
+    "slug": "main-button",
+    "group": "Базовые элементы",
+    "title": "Основное действие",
+    "node": "11:5",
+    "variants": [
+      {
+        "id": "29:864",
+        "title": "Variant3",
+        "width": 116,
+        "height": 44
+      },
+      {
+        "id": "29:885",
+        "title": "Button",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "id": "24:10464",
+        "title": "Secondary",
+        "width": 119,
+        "height": 44
+      }
+    ]
+  },
+  {
+    "slug": "small-button",
+    "group": "Базовые элементы",
+    "title": "Компактная кнопка",
+    "node": "22:9",
+    "variants": [
+      {
+        "id": "22:8",
+        "title": "Default",
+        "width": 104,
+        "height": 34
+      },
+      {
+        "id": "24:10396",
+        "title": "Gray",
+        "width": 104,
+        "height": 34
+      }
+    ]
+  },
+  {
+    "slug": "icon",
+    "group": "Базовые элементы",
+    "title": "Пиктограммы интерфейса",
+    "node": "24:11",
+    "variants": [
+      {
+        "id": "24:10",
+        "title": "Star",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "24:12",
+        "title": "Star2",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "24:26",
+        "title": "heart_outline",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "24:39",
+        "title": "chart-box-outline",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "24:7769",
+        "title": "chevron-right",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "29:860",
+        "title": "menu",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "29:869",
+        "title": "Variant7",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "29:905",
+        "title": "chevron-down",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "29:938",
+        "title": "search",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "30:947",
+        "title": "navigation-variant-outline",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "30:959",
+        "title": "weather-sunny",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "30:962",
+        "title": "weather-night",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "30:987",
+        "title": "account-circle-outline",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "30:1001",
+        "title": "shopping-bag",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "46:1998",
+        "title": "chevron-left",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "69:2348",
+        "title": "fire",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "87:24914",
+        "title": "phone-in-talk-outline",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "130:38971",
+        "title": "format-list-bulleted-square",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "134:39625",
+        "title": "Variant19",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "134:39642",
+        "title": "Holder",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "231:91950",
+        "title": "Variant33",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "159:47250",
+        "title": "Variant30",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "136:39752",
+        "title": "checkbox-blank-outline",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "138:39963",
+        "title": "Color",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "138:40216",
+        "title": "Size",
+        "width": 28,
+        "height": 24
+      },
+      {
+        "id": "141:45978",
+        "title": "play",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "150:44953",
+        "title": "Variant25",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "151:45547",
+        "title": "Variant26",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "151:45581",
+        "title": "tray-arrow-down",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "151:45584",
+        "title": "printer-outline",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "151:45587",
+        "title": "export-variant",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "159:47700",
+        "title": "Variant31",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "159:47882",
+        "title": "Variant32",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "250:118410",
+        "title": "close",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "250:118881",
+        "title": "Plus",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "250:132281",
+        "title": "Variant36",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "267:155651",
+        "title": "Filter_Stroke",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "id": "267:155671",
+        "title": "Filter_Filled",
+        "width": 24,
+        "height": 24
+      }
+    ]
+  },
+  {
+    "slug": "badge",
+    "group": "Базовые элементы",
+    "title": "Товарная метка",
+    "node": "24:44",
+    "variants": [
+      {
+        "id": "19:87",
+        "title": "Хит",
+        "width": 32,
+        "height": 19
+      },
+      {
+        "id": "24:74",
+        "title": "Советуем",
+        "width": 67,
+        "height": 19
+      },
+      {
+        "id": "24:76",
+        "title": "Новинка",
+        "width": 63,
+        "height": 19
+      },
+      {
+        "id": "24:78",
+        "title": "Акция",
+        "width": 48,
+        "height": 19
+      }
+    ]
+  },
+  {
+    "slug": "thumbnail",
+    "group": "Базовые элементы",
+    "title": "Миниатюра товара в подборке",
+    "node": "65:1774",
+    "variants": [
+      {
+        "id": "65:1774",
+        "title": "Item Collection",
+        "width": 133,
+        "height": 133
+      }
+    ]
+  },
+  {
+    "slug": "benefit-icon",
+    "group": "Базовые элементы",
+    "title": "Пиктограмма преимущества",
+    "node": "73:3583",
+    "variants": [
+      {
+        "id": "72:3474",
+        "title": "Default",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "73:3603",
+        "title": "Link → Wheel",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "73:3604",
+        "title": "Percent",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "73:3605",
+        "title": "Sale",
+        "width": 40,
+        "height": 40
+      }
+    ]
+  },
+  {
+    "slug": "menu-link",
+    "group": "Базовые элементы",
+    "title": "Ссылка главного меню",
+    "node": "261:114281",
+    "variants": [
+      {
+        "id": "261:114279",
+        "title": "High_Chevron",
+        "width": 85,
+        "height": 49
+      },
+      {
+        "id": "261:115681",
+        "title": "Tall_Chevron",
+        "width": 67,
+        "height": 21
+      },
+      {
+        "id": "261:114282",
+        "title": "High_Clean",
+        "width": 71,
+        "height": 49
+      },
+      {
+        "id": "261:115421",
+        "title": "Tall_Clean",
+        "width": 50,
+        "height": 22
+      }
+    ]
+  },
+  {
+    "slug": "tag",
+    "group": "Базовые элементы",
+    "title": "Обведённая метка или буква",
+    "node": "285:280634",
+    "variants": [
+      {
+        "id": "264:114507",
+        "title": "Border_Label",
+        "width": 92,
+        "height": 37
+      },
+      {
+        "id": "285:277948",
+        "title": "Border_letter",
+        "width": 33.39,
+        "height": 36
+      }
+    ]
+  },
+  {
+    "slug": "list",
+    "group": "Базовые элементы",
+    "title": "Строки списков",
+    "node": "261:113704",
+    "variants": [
+      {
+        "id": "261:113678",
+        "title": "Unordered",
+        "width": 596,
+        "height": 23
+      },
+      {
+        "id": "261:113705",
+        "title": "Ordered",
+        "width": 596,
+        "height": 23
+      },
+      {
+        "id": "261:113854",
+        "title": "Description",
+        "width": 596,
+        "height": 46
+      },
+      {
+        "id": "261:113753",
+        "title": "Unstyled",
+        "width": 596,
+        "height": 23
+      }
+    ]
+  },
+  {
+    "slug": "document-icon",
+    "group": "Базовые элементы",
+    "title": "Пиктограммы форматов документов",
+    "node": "260:113660",
+    "variants": [
+      {
+        "id": "251:113668",
+        "title": "DOC_ICONS_PDF",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "251:113669",
+        "title": "DOC_ICONS_DOC",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "260:113641",
+        "title": "DOC_ICONS_XLS",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "260:113642",
+        "title": "DOC_ICONS_RTF",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "260:113644",
+        "title": "DOC_ICONS_JPG",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "260:113646",
+        "title": "DOC_ICONS_TIFF",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "260:113648",
+        "title": "DOC_ICONS_FILE",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "260:113650",
+        "title": "DOC_ICONS_TXT",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "260:113652",
+        "title": "DOC_ICONS_PNG",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "260:113654",
+        "title": "DOC_ICONS_GIF",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "260:113656",
+        "title": "DOC_ICONS_BMP",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "id": "260:113658",
+        "title": "DOC_ICONS_PPT",
+        "width": 40,
+        "height": 40
+      }
+    ]
+  },
+  {
+    "slug": "category-feature",
+    "group": "Составные компоненты",
+    "title": "Большая плитка с изображением и метками",
+    "node": "47:2182",
+    "variants": [
+      {
+        "id": "47:2182",
+        "title": "Category",
+        "width": 484,
+        "height": 440.44
+      }
+    ]
+  },
+  {
+    "slug": "video",
+    "group": "Составные компоненты",
+    "title": "Карточка видеоотзыва",
+    "node": "69:2921",
+    "variants": [
+      {
+        "id": "69:2921",
+        "title": "Videoreview",
+        "width": 357,
+        "height": 284.81
+      }
+    ]
+  },
+  {
+    "slug": "review",
+    "group": "Составные компоненты",
+    "title": "Текстовый отзыв",
+    "node": "69:3114",
+    "variants": [
+      {
+        "id": "69:3114",
+        "title": "Textreview",
+        "width": 690,
+        "height": 396
+      }
+    ]
+  },
+  {
+    "slug": "collection",
+    "group": "Составные компоненты",
+    "title": "Подборка товаров",
+    "node": "59:5718",
+    "variants": [
+      {
+        "id": "59:5718",
+        "title": "Collection",
+        "width": 480,
+        "height": 479.67
+      }
+    ]
+  },
+  {
+    "slug": "service",
+    "group": "Составные компоненты",
+    "title": "Карточка услуги",
+    "node": "65:2080",
+    "variants": [
+      {
+        "id": "65:2080",
+        "title": "Service",
+        "width": 484,
+        "height": 467.28
+      }
+    ]
+  },
+  {
+    "slug": "sale",
+    "group": "Составные компоненты",
+    "title": "Карточка акции",
+    "node": "69:2357",
+    "variants": [
+      {
+        "id": "69:2357",
+        "title": "Sale",
+        "width": 484,
+        "height": 392.27
+      }
+    ]
+  },
+  {
+    "slug": "editorial",
+    "group": "Составные компоненты",
+    "title": "Материал блога или галереи",
+    "node": "55:5374",
+    "variants": [
+      {
+        "id": "55:5364",
+        "title": "Default",
+        "width": 357,
+        "height": 292.81
+      },
+      {
+        "id": "212:87383",
+        "title": "GalleryInner",
+        "width": 357,
+        "height": 240
+      },
+      {
+        "id": "55:5375",
+        "title": "Variant2",
+        "width": 273,
+        "height": 263.39
+      }
+    ]
+  },
+  {
+    "slug": "benefit",
+    "group": "Составные компоненты",
+    "title": "Преимущество магазина",
+    "node": "72:3483",
+    "variants": [
+      {
+        "id": "72:3483",
+        "title": "Background+Shadow",
+        "width": 340.59,
+        "height": 169
+      }
+    ]
+  },
+  {
+    "slug": "product",
+    "group": "Составные компоненты",
+    "title": "Карточка товара",
+    "node": "85:32686",
+    "variants": [
+      {
+        "id": "24:80",
+        "title": "Default",
+        "width": 280.8,
+        "height": 438.8
+      },
+      {
+        "id": "85:32687",
+        "title": "Variant2",
+        "width": 180,
+        "height": 325
+      }
+    ]
+  },
+  {
+    "slug": "vision",
+    "group": "Составные компоненты",
+    "title": "Карточка образа",
+    "node": "212:90049",
+    "variants": [
+      {
+        "id": "212:90050",
+        "title": "Vision",
+        "width": 725.98,
+        "height": 707.84
+      },
+      {
+        "id": "54:5312",
+        "title": "Default",
+        "width": 725.98,
+        "height": 587.84
+      }
+    ]
+  },
+  {
+    "slug": "category",
+    "group": "Составные компоненты",
+    "title": "Малая плитка категории",
+    "node": "31:9380",
+    "variants": [
+      {
+        "id": "31:9364",
+        "title": "Default",
+        "width": 283,
+        "height": 229.15
+      },
+      {
+        "id": "123:46660",
+        "title": "Variant2",
+        "width": 283,
+        "height": 335
+      }
+    ]
+  },
+  {
+    "slug": "vacancy",
+    "group": "Составные компоненты",
+    "title": "Рекламные блоки",
+    "node": "250:118965",
+    "variants": [
+      {
+        "id": "250:118948",
+        "title": "Advertisement1",
+        "width": 1195,
+        "height": 242
+      },
+      {
+        "id": "302:439878",
+        "title": "Variant3",
+        "width": 375,
+        "height": 429
+      },
+      {
+        "id": "250:118932",
+        "title": "Advertisement2",
+        "width": 1195,
+        "height": 134
+      }
+    ]
+  },
+  {
+    "slug": "account-menu",
+    "group": "Составные компоненты",
+    "title": "Боковая навигация",
+    "node": "159:56500",
+    "variants": [
+      {
+        "id": "159:56500",
+        "title": "Aside-Menu",
+        "width": 270,
+        "height": 327
+      }
+    ]
+  },
+  {
+    "slug": "price",
+    "group": "Составные компоненты",
+    "title": "Цена и итоги заказа",
+    "node": "151:45498",
+    "variants": [
+      {
+        "id": "142:47233",
+        "title": "Default",
+        "width": 358,
+        "height": 507.33
+      },
+      {
+        "id": "151:45499",
+        "title": "Total",
+        "width": 358,
+        "height": 354
+      },
+      {
+        "id": "152:48147",
+        "title": "Total_Final",
+        "width": 358,
+        "height": 380
+      }
+    ]
+  },
+  {
+    "slug": "brand",
+    "group": "Составные компоненты",
+    "title": "Логотип бренда",
+    "node": "267:158695",
+    "variants": [
+      {
+        "id": "267:158695",
+        "title": "Brand Logo",
+        "width": 90,
+        "height": 41.33
+      }
+    ]
+  },
+  {
+    "slug": "action-card",
+    "group": "Составные компоненты",
+    "title": "Карточки действий",
+    "node": "159:53865",
+    "variants": [
+      {
+        "id": "159:53808",
+        "title": "Default",
+        "width": 179.17,
+        "height": 130
+      },
+      {
+        "id": "276:200385",
+        "title": "Variant3",
+        "width": 238,
+        "height": 83
+      },
+      {
+        "id": "159:53866",
+        "title": "Hover",
+        "width": 179.17,
+        "height": 130
+      },
+      {
+        "id": "276:200391",
+        "title": "Variant4",
+        "width": 238,
+        "height": 83
+      }
+    ]
+  },
+  {
+    "slug": "form-field",
+    "group": "Составные компоненты",
+    "title": "Поле формы с подписью",
+    "node": "159:59451",
+    "variants": [
+      {
+        "id": "152:48579",
+        "title": "Default",
+        "width": 515,
+        "height": 63
+      },
+      {
+        "id": "159:59452",
+        "title": "Variant2",
+        "width": 515,
+        "height": 88
+      }
+    ]
+  },
+  {
+    "slug": "top-banner",
+    "group": "Составные компоненты",
+    "title": "Верхняя рекламная полоса",
+    "node": "142:47204",
+    "variants": [
+      {
+        "id": "142:47204",
+        "title": "Banner_top",
+        "width": 1920,
+        "height": 100
+      }
+    ]
+  },
+  {
+    "slug": "certificate",
+    "group": "Составные компоненты",
+    "title": "Блок с обводкой",
+    "node": "250:129647",
+    "variants": [
+      {
+        "id": "250:129647",
+        "title": "Border",
+        "width": 378.66,
+        "height": 266
+      }
+    ]
+  },
+  {
+    "slug": "filter-panel",
+    "group": "Составные компоненты",
+    "title": "Панель фильтра",
+    "node": "267:176236",
+    "variants": [
+      {
+        "id": "267:176236",
+        "title": "Filter",
+        "width": 375,
+        "height": 576
+      }
+    ]
+  },
+  {
+    "slug": "filter-menu",
+    "group": "Составные компоненты",
+    "title": "Меню фильтра",
+    "node": "134:39460",
+    "variants": [
+      {
+        "id": "130:38915",
+        "title": "Default",
+        "width": 198,
+        "height": 34
+      },
+      {
+        "id": "134:39461",
+        "title": "Dropdown_Price",
+        "width": 198,
+        "height": 145
+      },
+      {
+        "id": "138:40018",
+        "title": "Dropdown_Chekboxes",
+        "width": 198,
+        "height": 183
+      },
+      {
+        "id": "138:40138",
+        "title": "Dropdown_Colors",
+        "width": 198,
+        "height": 137.6
+      }
+    ]
+  },
+  {
+    "slug": "filter-row",
+    "group": "Составные компоненты",
+    "title": "Строка фильтра",
+    "node": "134:39493",
+    "variants": [
+      {
+        "id": "134:39479",
+        "title": "Default",
+        "width": 198,
+        "height": 25
+      },
+      {
+        "id": "136:39744",
+        "title": "Variant3",
+        "width": 198,
+        "height": 42
+      },
+      {
+        "id": "134:39494",
+        "title": "Variant2",
+        "width": 198,
+        "height": 25
+      }
+    ]
+  },
+  {
+    "slug": "textile",
+    "group": "Составные компоненты",
+    "title": "Строка категории с текстилем",
+    "node": "127:50941",
+    "variants": [
+      {
+        "id": "127:50941",
+        "title": "Category",
+        "width": 181.7,
+        "height": 78
+      }
+    ]
+  },
+  {
+    "slug": "sidebar",
+    "group": "Составные компоненты",
+    "title": "Строки бокового меню",
+    "node": "159:56490",
+    "variants": [
+      {
+        "id": "127:50923",
+        "title": "Checked",
+        "width": 209.94,
+        "height": 31
+      },
+      {
+        "id": "159:56491",
+        "title": "Default",
+        "width": 209.94,
+        "height": 31
+      },
+      {
+        "id": "127:50924",
+        "title": "dropdown",
+        "width": 238,
+        "height": 31
+      }
+    ]
+  },
+  {
+    "slug": "filter-options",
+    "group": "Составные компоненты",
+    "title": "Виды фильтров",
+    "node": "134:39519",
+    "variants": [
+      {
+        "id": "134:39518",
+        "title": "List",
+        "width": 198,
+        "height": 200
+      },
+      {
+        "id": "134:39520",
+        "title": "Range",
+        "width": 198,
+        "height": 101
+      },
+      {
+        "id": "134:39555",
+        "title": "Checkbox_list",
+        "width": 198,
+        "height": 123
+      },
+      {
+        "id": "137:39919",
+        "title": "Colors",
+        "width": 144,
+        "height": 93.6
+      },
+      {
+        "id": "138:40219",
+        "title": "Sizes",
+        "width": 144,
+        "height": 93.6
+      }
+    ]
+  },
+  {
+    "slug": "hero-section",
+    "group": "Секции",
+    "title": "Первый баннер",
+    "node": "86:25127",
+    "variants": [
+      {
+        "id": "26:204",
+        "title": "Default",
+        "width": 1991,
+        "height": 643
+      },
+      {
+        "id": "86:25325",
+        "title": "Variant2",
+        "width": 1000,
+        "height": 569
+      }
+    ]
+  },
+  {
+    "slug": "category-section",
+    "group": "Секции",
+    "title": "Плитки категорий",
+    "node": "87:25500",
+    "variants": [
+      {
+        "id": "32:1288",
+        "title": "Default",
+        "width": 2031,
+        "height": 818.48
+      },
+      {
+        "id": "87:25987",
+        "title": "Variant2",
+        "width": 768,
+        "height": 925
+      },
+      {
+        "id": "87:26054",
+        "title": "Variant3",
+        "width": 375,
+        "height": 301.25
+      }
+    ]
+  },
+  {
+    "slug": "blog-section",
+    "group": "Секции",
+    "title": "Блог",
+    "node": "88:24612",
+    "variants": [
+      {
+        "id": "55:5438",
+        "title": "Default",
+        "width": 1789,
+        "height": 507.03
+      },
+      {
+        "id": "88:24613",
+        "title": "Variant2",
+        "width": 768,
+        "height": 296.58
+      },
+      {
+        "id": "90:38761",
+        "title": "Variant3",
+        "width": 375,
+        "height": 347
+      }
+    ]
+  },
+  {
+    "slug": "vision-section",
+    "group": "Секции",
+    "title": "Интерьерные образы",
+    "node": "88:25459",
+    "variants": [
+      {
+        "id": "54:5338",
+        "title": "Default",
+        "width": 1920,
+        "height": 1057.21
+      },
+      {
+        "id": "88:25460",
+        "title": "Variant2",
+        "width": 768,
+        "height": 564.31
+      },
+      {
+        "id": "88:25484",
+        "title": "Variant3",
+        "width": 375,
+        "height": 914.9
+      }
+    ]
+  },
+  {
+    "slug": "service-section",
+    "group": "Секции",
+    "title": "Карточки услуг",
+    "node": "89:25087",
+    "variants": [
+      {
+        "id": "65:2207",
+        "title": "Default",
+        "width": 2111,
+        "height": 794.75
+      },
+      {
+        "id": "89:25088",
+        "title": "Variant2",
+        "width": 768,
+        "height": 427.87
+      },
+      {
+        "id": "89:25134",
+        "title": "Variant3",
+        "width": 375,
+        "height": 427.87
+      }
+    ]
+  },
+  {
+    "slug": "promo-section",
+    "group": "Секции",
+    "title": "Промополоса",
+    "node": "91:25882",
+    "variants": [
+      {
+        "id": "69:2302",
+        "title": "Default",
+        "width": 2271,
+        "height": 340
+      },
+      {
+        "id": "91:25883",
+        "title": "Variant2",
+        "width": 1200,
+        "height": 260
+      },
+      {
+        "id": "91:25885",
+        "title": "Variant3",
+        "width": 1000,
+        "height": 240
+      },
+      {
+        "id": "91:25887",
+        "title": "Variant4",
+        "width": 768,
+        "height": 170
+      },
+      {
+        "id": "91:25889",
+        "title": "Variant5",
+        "width": 375,
+        "height": 83
+      }
+    ]
+  },
+  {
+    "slug": "review-section",
+    "group": "Секции",
+    "title": "Отзывы",
+    "node": "90:26685",
+    "variants": [
+      {
+        "id": "69:3139",
+        "title": "Default",
+        "width": 1914,
+        "height": 585
+      },
+      {
+        "id": "90:26686",
+        "title": "Variant2",
+        "width": 1000,
+        "height": 573
+      },
+      {
+        "id": "90:26741",
+        "title": "Variant3",
+        "width": 768,
+        "height": 504
+      },
+      {
+        "id": "90:26796",
+        "title": "Variant4",
+        "width": 375,
+        "height": 874
+      }
+    ]
+  },
+  {
+    "slug": "gallery-section",
+    "group": "Секции",
+    "title": "Галерея",
+    "node": "90:26937",
+    "variants": [
+      {
+        "id": "55:5472",
+        "title": "Default",
+        "width": 1688,
+        "height": 582.5
+      },
+      {
+        "id": "90:26938",
+        "title": "Variant2",
+        "width": 1200,
+        "height": 437.06
+      },
+      {
+        "id": "90:26968",
+        "title": "Variant3",
+        "width": 768,
+        "height": 379.23
+      },
+      {
+        "id": "90:27028",
+        "title": "Variant4",
+        "width": 375,
+        "height": 508.74
+      }
+    ]
+  },
+  {
+    "slug": "header",
+    "group": "Секции",
+    "title": "Шапка",
+    "node": "87:24699",
+    "variants": [
+      {
+        "id": "29:906",
+        "title": "Desctop",
+        "width": 1920,
+        "height": 161
+      },
+      {
+        "id": "87:24700",
+        "title": "Tablet",
+        "width": 1000,
+        "height": 80
+      },
+      {
+        "id": "87:25344",
+        "title": "Mobile",
+        "width": 375,
+        "height": 44
+      }
+    ]
+  },
+  {
+    "slug": "product-section",
+    "group": "Секции",
+    "title": "Предложения товаров",
+    "node": "85:23874",
+    "variants": [
+      {
+        "id": "26:471",
+        "title": "1920",
+        "width": 1951,
+        "height": 1241
+      },
+      {
+        "id": "85:27128",
+        "title": "1000",
+        "width": 1000,
+        "height": 1311.5
+      },
+      {
+        "id": "85:30091",
+        "title": "768",
+        "width": 768,
+        "height": 1723.67
+      },
+      {
+        "id": "85:30408",
+        "title": "375",
+        "width": 375,
+        "height": 505
+      }
+    ]
+  },
+  {
+    "slug": "brands-section",
+    "group": "Секции",
+    "title": "Заголовок и лента брендов",
+    "node": "264:114808",
+    "variants": [
+      {
+        "id": "32:1115",
+        "title": "Заголовок",
+        "width": 2091,
+        "height": 40
+      },
+      {
+        "id": "46:2056",
+        "title": "Лента брендов",
+        "width": 2091,
+        "height": 160
+      }
+    ]
+  },
+  {
+    "slug": "feature-section",
+    "group": "Секции",
+    "title": "Большие категории",
+    "node": "88:25210",
+    "variants": [
+      {
+        "id": "47:2396",
+        "title": "Default",
+        "width": 2071,
+        "height": 1354.23
+      },
+      {
+        "id": "88:25211",
+        "title": "Variant2",
+        "width": 768,
+        "height": 1116.53
+      },
+      {
+        "id": "88:25376",
+        "title": "Variant3",
+        "width": 375,
+        "height": 399.2
+      }
+    ]
+  },
+  {
+    "slug": "collection-section",
+    "group": "Секции",
+    "title": "Коллекции",
+    "node": "89:24978",
+    "variants": [
+      {
+        "id": "65:1894",
+        "title": "Default",
+        "width": 1688,
+        "height": 727.74
+      },
+      {
+        "id": "89:24979",
+        "title": "Variant2",
+        "width": 768,
+        "height": 600.74
+      },
+      {
+        "id": "89:25033",
+        "title": "Variant3",
+        "width": 375,
+        "height": 508
+      }
+    ]
+  },
+  {
+    "slug": "sale-section",
+    "group": "Секции",
+    "title": "Акции",
+    "node": "90:25605",
+    "variants": [
+      {
+        "id": "69:2820",
+        "title": "Default",
+        "width": 2151,
+        "height": 742.63
+      },
+      {
+        "id": "90:25606",
+        "title": "Variant2",
+        "width": 1200,
+        "height": 425.34
+      },
+      {
+        "id": "90:26320",
+        "title": "Variant3",
+        "width": 768,
+        "height": 362.9
+      },
+      {
+        "id": "90:26408",
+        "title": "Variant4",
+        "width": 375,
+        "height": 392.6
+      }
+    ]
+  },
+  {
+    "slug": "video-section",
+    "group": "Секции",
+    "title": "Видеоотзывы",
+    "node": "90:26496",
+    "variants": [
+      {
+        "id": "69:3017",
+        "title": "Default",
+        "width": 2191,
+        "height": 616.07
+      },
+      {
+        "id": "90:26497",
+        "title": "Variant2",
+        "width": 1200,
+        "height": 375.59
+      },
+      {
+        "id": "90:26544",
+        "title": "Variant3",
+        "width": 768,
+        "height": 377.56
+      },
+      {
+        "id": "90:26591",
+        "title": "Variant4",
+        "width": 375,
+        "height": 386.56
+      }
+    ]
+  },
+  {
+    "slug": "about-section",
+    "group": "Секции",
+    "title": "О компании",
+    "node": "90:26851",
+    "variants": [
+      {
+        "id": "73:3514",
+        "title": "Default",
+        "width": 1464,
+        "height": 823
+      },
+      {
+        "id": "90:26852",
+        "title": "Variant2",
+        "width": 768,
+        "height": 1070
+      },
+      {
+        "id": "90:26895",
+        "title": "Variant3",
+        "width": 375,
+        "height": 1502
+      }
+    ]
+  },
+  {
+    "slug": "footer",
+    "group": "Секции",
+    "title": "Подвал",
+    "node": "90:27058",
+    "variants": [
+      {
+        "id": "73:4498",
+        "title": "Default",
+        "width": 2231,
+        "height": 568
+      },
+      {
+        "id": "90:27059",
+        "title": "1200",
+        "width": 1200,
+        "height": 528
+      },
+      {
+        "id": "90:29334",
+        "title": "1000",
+        "width": 1000,
+        "height": 782
+      },
+      {
+        "id": "90:31609",
+        "title": "768",
+        "width": 768,
+        "height": 620
+      },
+      {
+        "id": "90:33886",
+        "title": "375",
+        "width": 375,
+        "height": 1172
+      }
+    ]
+  },
+  {
+    "slug": "empty-layer",
+    "group": "Секции",
+    "title": "Пустой текстовый слой",
+    "node": "22:16",
+    "variants": [
+      {
+        "id": "22:16",
+        "title": "Text 1",
+        "width": 0,
+        "height": 0
+      }
+    ]
+  },
+  {
+    "slug": "extra-services",
+    "group": "Секции",
+    "title": "Дополнительный набор услуг",
+    "node": "279:272570",
+    "variants": [
+      {
+        "id": "212:82113",
+        "title": "Default",
+        "width": 1500,
+        "height": 307
+      },
+      {
+        "id": "279:272571",
+        "title": "Variant2",
+        "width": 1000,
+        "height": 362
+      },
+      {
+        "id": "279:272593",
+        "title": "Variant3",
+        "width": 768,
+        "height": 718
+      },
+      {
+        "id": "279:272615",
+        "title": "Variant4",
+        "width": 375,
+        "height": 862
+      }
+    ]
+  }
+]

@@ -1,0 +1,543 @@
+[
+  {
+    "name": "Dark/Light Modes",
+    "modes": [
+      {
+        "name": "Light",
+        "values": {
+          "gap": 4,
+          "Base colors/White": "#ffffff",
+          "Base colors/Grey 50": "#f8f8f8",
+          "Base colors/Grey 200": "#dddddd",
+          "Base colors/Grey 400": "#888888",
+          "Base colors/Grey 300": "#999999",
+          "Base colors/Black 100": "#222222",
+          "Base colors/Grey 500": "#666666",
+          "Base colors/Grey 600": "#555555",
+          "Base colors/Grey 100": "#f4f4f4",
+          "Base colors/Grey 150": "#ededed",
+          "Base colors/Grey 250": "#bbbbbb",
+          "Base colors/Accent Red": "#ff6666",
+          "Base colors/Accent Yellow": "#ffee88",
+          "Base colors/Accent Purple": "#aa77ff",
+          "Base colors/Accent Green": "#33cc55",
+          "Base colors/Stroke Transparance": "#0000001a",
+          "Base colors/Accent Yellow 2": "#ffd600",
+          "Base colors/White Text": "#ffffff",
+          "Base colors/Black Text": "#222222"
+        }
+      },
+      {
+        "name": "Dark",
+        "values": {
+          "gap": 4,
+          "Base colors/White": "#2a2a2a",
+          "Base colors/Grey 50": "#353535",
+          "Base colors/Grey 200": "#4b4b4b",
+          "Base colors/Grey 400": "#767676",
+          "Base colors/Grey 300": "#343434",
+          "Base colors/Black 100": "#222222",
+          "Base colors/Grey 500": "#666666",
+          "Base colors/Grey 600": "#555555",
+          "Base colors/Grey 100": "#313131",
+          "Base colors/Grey 150": "#444444",
+          "Base colors/Grey 250": "#1b1b1b",
+          "Base colors/Accent Red": "#ff6666",
+          "Base colors/Accent Yellow": "#ffee88",
+          "Base colors/Accent Purple": "#aa77ff",
+          "Base colors/Accent Green": "#33cc55",
+          "Base colors/Stroke Transparance": "#0000001a",
+          "Base colors/Accent Yellow 2": "#ffd600",
+          "Base colors/White Text": "#ffffff",
+          "Base colors/Black Text": "#ffffff"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Themes colors",
+    "modes": [
+      {
+        "name": "Red2",
+        "values": {
+          "Main Color": "#d7252c",
+          "Hover": "#f5484f"
+        }
+      },
+      {
+        "name": "Blue",
+        "values": {
+          "Main Color": "#3153d3",
+          "Hover": "#3153d3"
+        }
+      },
+      {
+        "name": "Purple",
+        "values": {
+          "Main Color": "#3153d3",
+          "Hover": "#ffffff"
+        }
+      },
+      {
+        "name": "Orange",
+        "values": {
+          "Main Color": "#3153d3",
+          "Hover": "#ffffff"
+        }
+      },
+      {
+        "name": "Yellow",
+        "values": {
+          "Main Color": "#3153d3",
+          "Hover": "#ffffff"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Desctop Width",
+    "modes": [
+      {
+        "name": "1696",
+        "values": {
+          "Theme Width": 112
+        }
+      },
+      {
+        "name": "1500",
+        "values": {
+          "Theme Width": 210
+        }
+      },
+      {
+        "name": "1296",
+        "values": {
+          "Theme Width": 312
+        }
+      }
+    ]
+  },
+  {
+    "name": "Fonts",
+    "modes": [
+      {
+        "name": "Geologica",
+        "values": {
+          "Name": "Geologica"
+        }
+      },
+      {
+        "name": "Inter",
+        "values": {
+          "Name": "Inter"
+        }
+      },
+      {
+        "name": "Manrope",
+        "values": {
+          "Name": "Manrope"
+        }
+      },
+      {
+        "name": "Jost",
+        "values": {
+          "Name": "Jost"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Radius buttons",
+    "modes": [
+      {
+        "name": "0 px",
+        "values": {
+          "Radius": 0
+        }
+      },
+      {
+        "name": "6 px",
+        "values": {
+          "Radius": 6
+        }
+      },
+      {
+        "name": "8 px",
+        "values": {
+          "Radius": 8
+        }
+      },
+      {
+        "name": "12 px",
+        "values": {
+          "Radius": 12
+        }
+      },
+      {
+        "name": "16 px",
+        "values": {
+          "Radius": 16
+        }
+      },
+      {
+        "name": "20 px",
+        "values": {
+          "Radius": 20
+        }
+      },
+      {
+        "name": "24 px",
+        "values": {
+          "Radius": 24
+        }
+      }
+    ]
+  },
+  {
+    "name": "Brakepoints",
+    "modes": [
+      {
+        "name": "1920",
+        "values": {
+          "Typography/Size 12": 12,
+          "Indents/16": 16,
+          "Indents/14": 14,
+          "Indents/12": 12,
+          "Indents/10": 10,
+          "Indents/6": 6,
+          "Indents/4": 4,
+          "Indents/8": 8,
+          "Indents/2": 2,
+          "Indents/18": 18,
+          "Indents/0": 0,
+          "Typography/Size 14": 14,
+          "Typography/Size 16": 16,
+          "Typography/Size 18": 18,
+          "Typography/Size 20": 20,
+          "Typography/Size 24": 24,
+          "Typography/Size 26": 26,
+          "Typography/Size 28": 28,
+          "Typography/Size 30": 30,
+          "Typography/Size 32": 32,
+          "Typography/Size 42": 42,
+          "Typography/Size 10": 10,
+          "Indents": 0,
+          "Paddings/Main Padding": 112,
+          "Paddings/Vertical Rythm 1": 80,
+          "Paddings/Vertical Rythm 2": 60,
+          "Paddings/Vertical Rythm 3": 35,
+          "Paddings/Blog Padding": 340
+        }
+      },
+      {
+        "name": "1200",
+        "values": {
+          "Typography/Size 12": 12,
+          "Indents/16": 16,
+          "Indents/14": 14,
+          "Indents/12": 12,
+          "Indents/10": 10,
+          "Indents/6": 6,
+          "Indents/4": 4,
+          "Indents/8": 8,
+          "Indents/2": 2,
+          "Indents/18": 18,
+          "Indents/0": 0,
+          "Typography/Size 14": 14,
+          "Typography/Size 16": 16,
+          "Typography/Size 18": 18,
+          "Typography/Size 20": 20,
+          "Typography/Size 24": 24,
+          "Typography/Size 26": 26,
+          "Typography/Size 28": 20,
+          "Typography/Size 30": 24,
+          "Typography/Size 32": 26,
+          "Typography/Size 42": 28,
+          "Typography/Size 10": 10,
+          "Indents": 0,
+          "Paddings/Main Padding": 40,
+          "Paddings/Vertical Rythm 1": 30,
+          "Paddings/Vertical Rythm 2": 40,
+          "Paddings/Vertical Rythm 3": 20,
+          "Paddings/Blog Padding": 120
+        }
+      },
+      {
+        "name": "1000",
+        "values": {
+          "Typography/Size 12": 12,
+          "Indents/16": 16,
+          "Indents/14": 14,
+          "Indents/12": 12,
+          "Indents/10": 10,
+          "Indents/6": 6,
+          "Indents/4": 4,
+          "Indents/8": 8,
+          "Indents/2": 2,
+          "Indents/18": 18,
+          "Indents/0": 0,
+          "Typography/Size 14": 14,
+          "Typography/Size 16": 16,
+          "Typography/Size 18": 18,
+          "Typography/Size 20": 20,
+          "Typography/Size 24": 24,
+          "Typography/Size 26": 26,
+          "Typography/Size 28": 20,
+          "Typography/Size 30": 24,
+          "Typography/Size 32": 26,
+          "Typography/Size 42": 28,
+          "Typography/Size 10": 10,
+          "Indents": 0,
+          "Paddings/Main Padding": 20,
+          "Paddings/Vertical Rythm 1": 30,
+          "Paddings/Vertical Rythm 2": 40,
+          "Paddings/Vertical Rythm 3": 20,
+          "Paddings/Blog Padding": 20
+        }
+      },
+      {
+        "name": "768",
+        "values": {
+          "Typography/Size 12": 10,
+          "Indents/16": 16,
+          "Indents/14": 14,
+          "Indents/12": 12,
+          "Indents/10": 10,
+          "Indents/6": 6,
+          "Indents/4": 4,
+          "Indents/8": 8,
+          "Indents/2": 2,
+          "Indents/18": 18,
+          "Indents/0": 0,
+          "Typography/Size 14": 12,
+          "Typography/Size 16": 14,
+          "Typography/Size 18": 18,
+          "Typography/Size 20": 20,
+          "Typography/Size 24": 24,
+          "Typography/Size 26": 26,
+          "Typography/Size 28": 20,
+          "Typography/Size 30": 22,
+          "Typography/Size 32": 24,
+          "Typography/Size 42": 28,
+          "Typography/Size 10": 10,
+          "Indents": 0,
+          "Paddings/Main Padding": 20,
+          "Paddings/Vertical Rythm 1": 30,
+          "Paddings/Vertical Rythm 2": 40,
+          "Paddings/Vertical Rythm 3": 20,
+          "Paddings/Blog Padding": 20
+        }
+      },
+      {
+        "name": "375",
+        "values": {
+          "Typography/Size 12": 12,
+          "Indents/16": 16,
+          "Indents/14": 14,
+          "Indents/12": 12,
+          "Indents/10": 10,
+          "Indents/6": 6,
+          "Indents/4": 4,
+          "Indents/8": 8,
+          "Indents/2": 2,
+          "Indents/18": 18,
+          "Indents/0": 0,
+          "Typography/Size 14": 14,
+          "Typography/Size 16": 16,
+          "Typography/Size 18": 18,
+          "Typography/Size 20": 20,
+          "Typography/Size 24": 24,
+          "Typography/Size 26": 26,
+          "Typography/Size 28": 20,
+          "Typography/Size 30": 24,
+          "Typography/Size 32": 26,
+          "Typography/Size 42": 24,
+          "Typography/Size 10": 10,
+          "Indents": 0,
+          "Paddings/Main Padding": 10,
+          "Paddings/Vertical Rythm 1": 30,
+          "Paddings/Vertical Rythm 2": 40,
+          "Paddings/Vertical Rythm 3": 20,
+          "Paddings/Blog Padding": 10
+        }
+      }
+    ]
+  },
+  {
+    "name": "Heading Styles",
+    "modes": [
+      {
+        "name": "Bold",
+        "values": {
+          "Style": "Medium"
+        }
+      },
+      {
+        "name": "Medium",
+        "values": {
+          "Style": "Medium"
+        }
+      },
+      {
+        "name": "Regular",
+        "values": {
+          "Style": "Regular"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Radius images",
+    "modes": [
+      {
+        "name": "0 px",
+        "values": {
+          "Radius": 0
+        }
+      },
+      {
+        "name": "6 px",
+        "values": {
+          "Radius": 6
+        }
+      },
+      {
+        "name": "8 px",
+        "values": {
+          "Radius": 8
+        }
+      },
+      {
+        "name": "12 px",
+        "values": {
+          "Radius": 12
+        }
+      },
+      {
+        "name": "16 px",
+        "values": {
+          "Radius": 16
+        }
+      },
+      {
+        "name": "20 px",
+        "values": {
+          "Radius": 20
+        }
+      },
+      {
+        "name": "24 px",
+        "values": {
+          "Radius": 24
+        }
+      }
+    ]
+  },
+  {
+    "name": "Radius external",
+    "modes": [
+      {
+        "name": "0 px",
+        "values": {
+          "Radius": 0
+        }
+      },
+      {
+        "name": "6 px",
+        "values": {
+          "Radius": 6
+        }
+      },
+      {
+        "name": "8 px",
+        "values": {
+          "Radius": 8
+        }
+      },
+      {
+        "name": "12 px",
+        "values": {
+          "Radius": 12
+        }
+      },
+      {
+        "name": "16 px",
+        "values": {
+          "Radius": 16
+        }
+      },
+      {
+        "name": "20 px",
+        "values": {
+          "Radius": 20
+        }
+      },
+      {
+        "name": "24 px",
+        "values": {
+          "Radius": 24
+        }
+      }
+    ]
+  },
+  {
+    "name": "Cards Gap",
+    "modes": [
+      {
+        "name": "6 px",
+        "values": {
+          "Gap": 6
+        }
+      },
+      {
+        "name": "8 px",
+        "values": {
+          "Gap": 8
+        }
+      },
+      {
+        "name": "12 px",
+        "values": {
+          "Gap": 12
+        }
+      },
+      {
+        "name": "16 px",
+        "values": {
+          "Gap": 16
+        }
+      },
+      {
+        "name": "20 px",
+        "values": {
+          "Gap": 20
+        }
+      },
+      {
+        "name": "24 px",
+        "values": {
+          "Gap": 24
+        }
+      }
+    ]
+  },
+  {
+    "name": "Banner Mode",
+    "modes": [
+      {
+        "name": "Light",
+        "values": {
+          "Heading Color": 0,
+          "Descriptor Color 2": 0
+        }
+      },
+      {
+        "name": "Dark",
+        "values": {
+          "Heading Color": 0,
+          "Descriptor Color 2": 0
+        }
+      }
+    ]
+  }
+]

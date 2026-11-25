@@ -1,0 +1,91 @@
+
+.card, .product, .review, .price-panel { display: flex; flex-direction: column; min-width: 0; align-items: stretch; font: var(--type-body-16-142); color: var(--black-text); }
+.card {
+  gap: 9px;
+  &__title { font: var(--type-heading-h5-18-142); margin: 0; }
+  &__meta { font: var(--type-body-14-142); }
+  &__body { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; min-width: 0; }
+  &__media { position: relative; .photo { display: block; width: 100%; height: auto; aspect-ratio: 1.493; object-fit: cover; } }
+  &__tags .tag { border-color: #ffffff80; border-radius: 8px; }
+  &__tags, &__labels, &__price { display: flex; align-items: center; gap: 6px; }
+  &__labels { position: absolute; top: 10px; left: 10px; }
+  &__price del { color: #999; font-size: 13px; }
+  &--collection > .card__meta { color: #999; }
+  &--collection { padding: 32px; border: 1px solid #ededed; gap: 5px; }
+  &__mosaic { margin-top: auto; padding-top: 15px; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; .photo { width: 100%; aspect-ratio: 1; } }
+  &--category-feature, &--vision, &--category { position: relative; isolation: isolate; justify-content: flex-end; overflow: hidden;
+    > .photo, > .card__media { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -2; .photo { height: 100%; } }
+    &:has(.card__body)::after, &.card--category::after { content: ''; position: absolute; inset: 0; background: linear-gradient(transparent 45%,#000b); z-index: -1; }
+    .card__body { padding: 20px; color: white; .card__meta { color: white; } }
+    .card__title { font: var(--type-heading-h4-20-142); }
+  }
+  &--vision .card__body { padding: 35px; }
+  &--category { padding: 16px; color: white; .card__title { display: flex; justify-content: space-between; font-size: 16px; } .card__title::after { content: '›'; } }
+  &--category-stacked { padding: 0; color: #222; gap: 8px; &.card--category::after { display: none; } > .card__media { position: static; aspect-ratio: 1; height: auto; } .card__title { padding: 10px; background: #ededed; } }
+  &--service { background: var(--white); .card__body { padding: 10px 18px 16px; gap: 9px; } .card__media > .sale-label { position: absolute; bottom: 10px; left: 10px; } &:not(:has(.photo)) { border: 1px solid #ededed; padding: 18px; .button { align-self: start; margin-top: auto; } } }
+  &--sale .card__body { padding: 0 12px; }
+  &--benefit { background: var(--white); border-radius: 12px; box-shadow: 0 4px 16px #0001; padding: 16px; justify-content: space-between; .icon { width: 40px; height: 40px; } }
+  &--video .card__media .photo { aspect-ratio: 16/9; } &--video .card__title, &--editorial .card__title { font-size: 16px; }
+  &--vacancy, &--certificate { border: 1px solid #ebecef; padding: 20px; gap: 10px; }
+  &--certificate { align-items: center; justify-content: space-between; text-align: center; .photo { height: 160px; width: 114px; } }
+}
+.sale-label, .sale-clock, .video__duration { font: var(--type-body-13-142); background: var(--accent-yellow); border-radius: 4px; padding: 2px 5px; }
+.sale-clock { background: #f4f4f4; display: inline-flex; gap: 3px; align-items: center; .icon { width: 14px; height: 14px; } }
+.video__duration { position: absolute; right: 12px; bottom: 12px; background: #222; color: white; }
+.video__play { position: absolute; bottom: 12px; left: 12px; border: 0; background: #222b; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; .icon { filter: invert(1); } }
+.product { border: 1px solid var(--grey-150); background: var(--white); padding: 16px; gap: 9px;
+  &--compact { padding: 6px; gap: 7px;
+    .product__badges { top: 6px; left: 6px; right: 30px; }
+    .product__actions { top: 6px; right: 6px; }
+    .product__price { font: var(--type-price-16-bold-142); }
+    .card__title { font: var(--type-body-13-142); }
+    .product__availability { font: var(--type-body-12-142); }
+    > .button { align-self: stretch; }
+  }
+  &__media { position: relative; .photo { width: 100%; aspect-ratio: 1; } }
+  &__actions { position: absolute; top: 10px; right: 10px; display: grid; }
+  &__badges { position: absolute; top: 10px; left: 10px; right: 34px; max-width: 160px; display: flex; gap: 4px; flex-wrap: wrap; }
+  &__price { font: var(--type-price-18-bold-142); }
+  .card__title { font: var(--type-body-15-142); }
+  &__availability { display: flex; gap: 5px; align-items: center; flex-wrap: wrap; font: var(--type-body-13-142); .icon { width: 20px; filter: invert(78%) sepia(100%) saturate(938%); } }
+  &__stock { color: #278840; }
+  > .button { margin-top: auto; align-self: flex-start; min-height: 39px; }
+  &--compact > .button { align-self: stretch; }
+  &--compact .card__title { font: var(--type-body-13-142); }
+  &--compact .product__availability .icon { height: 20px; }
+  &--compact .card__title, .card__title { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+}
+.review { border: 1px solid #ededed; padding: 18px; gap: 17px; &__header { display: flex; gap: 16px; align-items: center; border-bottom: 1px solid #ededed; padding-bottom: 17px; .photo { width: 80px; height: 80px; border-radius: 50%; } }
+  &__author { display: grid; flex: 1; gap: 6px; .card__meta { color: #888; font: var(--type-body-13-142); } }
+  &__name { display: flex; justify-content: space-between; align-items: center; gap: 8px; .card__title { font: var(--type-heading-h4-20-142); } }
+  &__rating { white-space: nowrap; font-size: 18px; &::first-letter { color: #e6ac1a; } } &__text { margin: 0; line-height: 1.42; color: #888; display: -webkit-box; -webkit-line-clamp: 9; -webkit-box-orient: vertical; overflow: hidden; } &__text--expanded { display: block; }
+  .text-button { align-self: start; margin-top: auto; }
+}
+.price-panel { gap: 35px; color: #222;
+  &__box { display: grid; gap: 18px; padding: 20px; background: #ffffff01; box-shadow: 0 4px 30px #0000001a; border-radius: 8px; }
+  &__amount, &__total { font: var(--type-price-24-bold-142); }
+  &__buttons, &__links, &__foot, &__delivery, &__items { display: grid; gap: 8px; }
+  &__buttons .button { height: 51px; border-radius: 8px; }
+  &__buttons .button + .button { color: #222; background: transparent; border: 1px solid #bbb; }
+  &__links, &__delivery { font: var(--type-body-13-142); }
+  &__links .text-button { font: inherit; }
+  &__foot { gap: 10px; .photo { width: 90px; height: 41px; padding: 10px 5px; background: white; object-fit: contain; } small { color: #999; font: var(--type-body-13-142); } }
+  &__tags { display: flex; gap: 8px; .text-button { flex: 1; border: 1px solid #ddd; border-radius: 6px; text-align: center; padding: 7px 3px; font: var(--type-button-14-21); } }
+  &__total, &__line, &__promo summary { display: flex; align-items: center; justify-content: space-between; }
+  &--total { background: white; .price-panel__box { gap: 12px; } .button { border-radius: 8px; min-height: 48px; } }
+  &__promo { border: 1px solid #bbb; border-radius: 6px; summary { padding: 12px 8px 12px 16px; min-height: 48px; list-style: none; } input { width: calc(100% - 16px); margin: 0 8px 8px; } }
+  &__line { gap: 6px; font: var(--type-body-14-142); i { border-bottom: 1px dotted #bbb; flex: 1; align-self: end; } span:first-child { color: #888; } }
+  &__warning { position: relative; min-height: 132px; display: grid; gap: 10px; margin-block: 8px; background: #d7252c1a; border-radius: 8px; padding: 20px 60px 20px 20px; font: var(--type-body-18-132); small { color: #666; font: var(--type-body-14-142); } .icon { position: absolute; top: 20px; right: 20px; } }
+  &__delivery { margin-block: 8px; em { font-style: normal; color: var(--master-accent); } }
+}
+.top-banner .photo { width: 100%; height: 100%; object-fit: cover; }
+.vacancy { padding: 35px; border: 1px solid #ebecef; }
+.vacancy__summary, .vacancy__salary, .service-order { display: flex; justify-content: space-between; align-items: center; gap: 18px; }
+.vacancy__intro { display: grid; gap: 18px; } .vacancy__salary { flex: none; }
+.vacancy .card__title, .vacancy__salary { font: var(--type-heading-h4-20-142); }
+.vacancy[open] .vacancy__salary .icon { transform: rotate(180deg); }
+.service-order { margin-top: auto; }
+@container sample (max-width: 420px) {
+  .vacancy { padding: 20px; }
+  .vacancy__summary { align-items: flex-start; flex-direction: column; }
+}

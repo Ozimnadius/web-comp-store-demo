@@ -1,0 +1,150 @@
+:root {
+  --font-store: "Geologica Variable", sans-serif;
+  --font-samples: "Inter Variable", sans-serif;
+  --type-display-hero-42-110: 500 42px/110% var(--font-store);
+  --type-heading-h1-32-142: 500 32px/142% var(--font-store);
+  --type-heading-h2-28-142: 500 28px/142% var(--font-store);
+  --type-heading-h3-24-142: 500 24px/142% var(--font-store);
+  --type-heading-h4-20-142: 500 20px/142% var(--font-store);
+  --type-heading-h5-18-142: 500 18px/142% var(--font-store);
+  --type-heading-h6-16-142: 500 16px/142% var(--font-store);
+  --type-body-16-bold-142: 600 16px/20px var(--font-store);
+  --type-body-16-142: 400 16px/142% var(--font-store);
+  --type-body-15-142: 400 15px/142% var(--font-store);
+  --type-body-14-142: 400 14px/120% var(--font-store);
+  --type-body-13-142: 400 13px/142% var(--font-store);
+  --type-body-12-142: 400 12px/142% var(--font-store);
+  --type-body-18-132: 400 18px/132% var(--font-store);
+  --type-button-14-21: 400 14px/21px var(--font-store);
+  --type-button-15-22: 400 15px/22px var(--font-store);
+  --type-button-15-bold-22: 600 15px/22px var(--font-store);
+  --type-button-16-16: 400 16px/16px var(--font-store);
+  --type-price-18-bold-142: 600 18px/142% var(--font-store);
+  --type-price-16-bold-142: 600 16px/142% var(--font-store);
+  --type-price-24-bold-142: 600 24px/32px var(--font-store);
+  --type-label-uppercase-10-23: 400 10px/23px var(--font-store);
+}
+:root, .store-theme {
+  --mode-gap: 4px;
+  --white: #FFFFFF;
+  --grey-50: #F8F8F8;
+  --grey-200: #DDDDDD;
+  --grey-400: #888888;
+  --grey-300: #999999;
+  --black-100: #222222;
+  --accent: #3153D3;
+  --outer-padding: 112px;
+  --hover: #3153D3;
+  --grey-500: #666666;
+  --grey-600: #555555;
+  --grey-100: #F4F4F4;
+  --grey-150: #EDEDED;
+  --grey-250: #BBBBBB;
+  --accent-red: #FF6666;
+  --accent-yellow: #FFEE88;
+  --accent-purple: #AA77FF;
+  --accent-green: #33CC55;
+  --stroke-transparance: #0000001a;
+  --accent-yellow-2: #FFD600;
+  --radius-buttons: 8px;
+  --radius-images: 12px;
+  --radius-external: 12px;
+  --card-gap: 24px;
+  --banner-heading: 0;
+  --banner-description: 0;
+  --white-text: #FFFFFF;
+  --black-text: #222222;
+  --primary-fill: #6750a3;
+  --master-accent: #d7252c;
+}
+.store-theme--dark {
+  --white: #2A2A2A;
+  --grey-50: #353535;
+  --grey-200: #4B4B4B;
+  --grey-400: #767676;
+  --grey-300: #343434;
+  --accent: #D7252C;
+  --outer-padding: 210px;
+  --hover: #F5484F;
+  --grey-100: #313131;
+  --grey-150: #444444;
+  --grey-250: #1B1B1B;
+  --radius-buttons: 6px;
+  --black-text: #FFFFFF;
+}
+.store-theme--narrow {
+  --accent: #d7252c;
+  --hover: #f5484f;
+  --outer-padding: 312px;
+  --radius-buttons: 6px;
+}
+:root {
+  --typography-size-12: 12px;
+  --indents-16: 16px;
+  --indents-14: 14px;
+  --indents-12: 12px;
+  --indents-10: 10px;
+  --indents-6: 6px;
+  --indents-4: 4px;
+  --indents-8: 8px;
+  --indents-2: 2px;
+  --indents-18: 18px;
+  --indents-0: 0px;
+  --typography-size-14: 14px;
+  --typography-size-16: 16px;
+  --typography-size-18: 18px;
+  --typography-size-20: 20px;
+  --typography-size-24: 24px;
+  --typography-size-26: 26px;
+  --typography-size-28: 28px;
+  --typography-size-30: 30px;
+  --typography-size-32: 32px;
+  --typography-size-42: 42px;
+  --typography-size-10: 10px;
+  --indents: 0px;
+  --paddings-main-padding: 112px;
+  --paddings-vertical-rythm-1: 80px;
+  --paddings-vertical-rythm-2: 60px;
+  --paddings-vertical-rythm-3: 35px;
+  --paddings-blog-padding: 340px;
+}
+@media (max-width: 1200px) {
+  :root {
+    --typography-size-28: 20px;
+    --typography-size-30: 24px;
+    --typography-size-32: 26px;
+    --typography-size-42: 28px;
+    --paddings-main-padding: 40px;
+    --paddings-vertical-rythm-1: 30px;
+    --paddings-vertical-rythm-2: 40px;
+    --paddings-vertical-rythm-3: 20px;
+    --paddings-blog-padding: 120px;
+  }
+}
+@media (max-width: 1000px) {
+  :root {
+    --paddings-main-padding: 20px;
+    --paddings-blog-padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --typography-size-12: 10px;
+    --typography-size-14: 12px;
+    --typography-size-16: 14px;
+    --typography-size-30: 22px;
+    --typography-size-32: 24px;
+  }
+}
+@media (max-width: 375px) {
+  :root {
+    --typography-size-12: 12px;
+    --typography-size-14: 14px;
+    --typography-size-16: 16px;
+    --typography-size-30: 24px;
+    --typography-size-32: 26px;
+    --typography-size-42: 24px;
+    --paddings-main-padding: 10px;
+    --paddings-blog-padding: 10px;
+  }
+}
