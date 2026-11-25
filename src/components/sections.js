@@ -3,11 +3,13 @@ import { choices, element, iconButton, photo, demoAction } from './elements.js';
 import { footer, header } from './navigation.js';
 
 function stepTrack(track, direction) {
-  const amount = track.firstElementChild?.offsetWidth || 100;
+  const visible = [...track.children].filter(item => !item.hidden);
+  if (visible.length < 2) return;
+  const amount = visible[0].offsetWidth + (parseFloat(getComputedStyle(track).columnGap) || 0);
   const end = track.scrollWidth - track.clientWidth;
   if (end < 2) {
-    if (direction > 0) track.append(track.firstElementChild);
-    else track.prepend(track.lastElementChild);
+    if (direction > 0) track.append(visible[0]);
+    else track.prepend(visible.at(-1));
     return;
   }
   let target = track.scrollLeft + amount * direction;
@@ -44,7 +46,7 @@ function brands(data) {
   return element('div','brands',arrows.firstElementChild,track,arrows.lastElementChild);
 }
 
-export function section(kind, data, index = 0) {
+export function section(kind, data, index = 0, storefront = false) {
   const box = element('section','store-section store-section--'+kind);
   for (const [role,font] of Object.entries(data.type || {})) box.style.setProperty('--section-'+role,font);
   box.style.setProperty('--section-padding', data.padding.map(v=>v+'px').join(' '));
@@ -116,7 +118,8 @@ export function section(kind, data, index = 0) {
     const label=data.choices[event.detail].toLowerCase();
     for (const node of track.children) node.hidden=!node.dataset.labels.split('|').includes(label);
   });
-  if (overflow || ['gallery-section','blog-section','video-section'].includes(kind)) {
+  if (overflow || ['gallery-section','blog-section','video-section'].includes(kind) ||
+      (storefront && ['product-section','category-section','feature-section','service-section','sale-section','review-section'].includes(kind))) {
     scrollKeys(track);
     const next = iconButton('right','Показать следующие элементы',()=>stepTrack(track,1));
     head.insertBefore(next,head.children[1] || null);

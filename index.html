@@ -3,30 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f5f5f2">
-    <title>Дизайн-система Web Comp</title>
-    <script type="module" src="/src/main.js"></script>
+    <meta name="theme-color" content="#ffffff">
+    <title>Маркет PRO — интернет-магазин</title>
+    <script type="module" src="/src/home/main.js"></script>
   </head>
-  <body>
-    <a class="skip-link" href="#family-title">К образцам</a>
-    <header class="masthead">
-      <a class="masthead__brand" href="#product">Web Comp<span class="masthead__dot" aria-hidden="true"></span></a>
-      <span class="masthead__title">Дизайн-система</span>
-      <button id="library-menu" class="masthead__menu" type="button" aria-controls="library-sidebar" aria-expanded="false">Разделы</button>
-    </header>
-    <div class="library">
-      <aside class="library-nav" id="library-sidebar">
-        <label class="library-nav__search"><span>Поиск компонентов</span><input type="search" id="library-search" placeholder="Название компонента"></label>
-        <nav aria-label="Каталог компонентов" data-library-nav></nav>
-      </aside>
-      <main class="library__main">
-        <header class="library__heading">
-          <p class="library__group" id="family-group"></p>
-          <h1 id="family-title" tabindex="-1"></h1>
-          <a class="library__source" id="family-source">Открыть мастер в Figma ↗</a>
-        </header>
-        <div id="examples"></div>
-      </main>
-    </div>
+  <body class="storefront store-theme">
+    <a class="skip-link" href="#home-main">К товарам и предложениям</a>
+    <div id="home-header"></div>
+    <main id="home-main" tabindex="-1">
+      <h1 class="visually-hidden">Маркет PRO — интернет-магазин</h1>
+    </main>
+    <div id="home-footer"></div>
   </body>
 </html>

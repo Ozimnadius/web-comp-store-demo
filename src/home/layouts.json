@@ -1,0 +1,980 @@
+{
+  "375": {
+    "header": {
+      "master": "87:25344",
+      "padding": [10, 10, 10, 10],
+      "height": 44
+    },
+    "hero-section": {
+      "master": "86:25325",
+      "padding": [0, 10, 30, 10],
+      "height": 466,
+      "banner": [-65.13, 0, 505.26, 200],
+      "overlay": [36.2, 0, 302.61, 200]
+    },
+    "product-section": {
+      "master": "85:30408",
+      "padding": [30, 10, 30, 10],
+      "height": 515,
+      "grid": { "width": 160, "height": 344, "columns": 10, "gap": 6, "top": 141 },
+      "title": { "y": 30, "h": 28 },
+      "choice": { "y": 72, "h": 39 }
+    },
+    "category-section": {
+      "master": "87:26054",
+      "padding": [30, 0, 30, 10],
+      "height": 301.25,
+      "grid": { "width": 238.67, "height": 193.25, "columns": 10, "gap": 6, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "brands-section": {
+      "master": "46:2056",
+      "padding": [40, 10, 40, 10],
+      "height": 120,
+      "arrows": false
+    },
+    "feature-section": {
+      "master": "88:25376",
+      "padding": [30, 10, 30, 10],
+      "height": 399.2,
+      "grid": { "width": 320, "height": 291.2, "columns": 6, "gap": 6, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "blog-section": {
+      "master": "90:38761",
+      "padding": [30, 10, 30, 10],
+      "height": 373,
+      "grid": { "width": 275.4, "height": 265, "columns": 5, "gap": 6, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "gallery-section": {
+      "master": "90:27028",
+      "padding": [30, 10, 30, 10],
+      "height": 508.74,
+      "grid": { "width": 245.25, "height": 240.74, "columns": 4, "gap": 6, "top": 238 },
+      "title": { "y": 30, "h": 28 },
+      "lead": { "y": 80, "h": 138 }
+    },
+    "collection-section": {
+      "master": "89:25033",
+      "padding": [30, 10, 30, 10],
+      "height": 508,
+      "grid": { "width": 304.98, "height": 400, "columns": 3, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "service-section": {
+      "master": "89:25134",
+      "padding": [30, 10, 30, 10],
+      "height": 427.87,
+      "grid": { "width": 230, "height": 319.87, "columns": 3, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "vision-section": {
+      "master": "88:25484",
+      "padding": [30, 10, 30, 10],
+      "height": 932.9,
+      "grid": { "width": 355, "height": 287.45, "columns": 1, "gap": 24, "top": 304 },
+      "title": { "y": 30, "h": 32 },
+      "lead": { "y": 82, "h": 138 },
+      "choice": { "y": 240, "h": 44 }
+    },
+    "promo-section": {
+      "master": "91:25889",
+      "padding": [10, 10, 10, 10],
+      "height": 83,
+      "banner": [10, 10, 355, 63]
+    },
+    "sale-section": {
+      "master": "90:26408",
+      "padding": [30, 20, 30, 20],
+      "height": 392.6,
+      "grid": { "width": 283, "height": 284.6, "columns": 3, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "video-section": {
+      "master": "90:26591",
+      "padding": [30, 10, 30, 10],
+      "height": 378.97,
+      "grid": { "width": 291.5, "height": 247.97, "columns": 4, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "review-section": {
+      "master": "90:26796",
+      "padding": [30, 20, 30, 20],
+      "height": 874,
+      "grid": { "width": 300, "height": 766, "columns": 2, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "about-section": {
+      "master": "90:26895",
+      "padding": [30, 10, 30, 10],
+      "height": 1589,
+      "grid": { "width": 355, "height": 169, "columns": 1, "gap": 24, "top": 811 },
+      "title": { "y": 50, "h": 56 },
+      "about": { "y": 30, "h": 757 },
+      "benefits": [
+        [
+          "Быстрая доставка",
+          "Бережно доставляем товары по России за 24 часа"
+        ],
+        [
+          "Клиентский сервис",
+          "Отвечаем на вопросы покупателей в\nтечение 10 минут"
+        ],
+        [
+          "Бонусы за покупки",
+          "Дарим подарки и скидки до 70% всем\nпокупателям"
+        ],
+        [
+          "Доступные цены",
+          "Работаем напрямую с ведущими\nпроизводителями"
+        ]
+      ]
+    },
+    "footer": {
+      "master": "90:33886",
+      "padding": [30, 10, 0, 10],
+      "height": 1192
+    }
+  },
+  "768": {
+    "header": {
+      "master": "87:24700",
+      "padding": [18, 20, 18, 20],
+      "height": 80
+    },
+    "hero-section": {
+      "master": "86:25325",
+      "padding": [20, 20, 20, 20],
+      "height": 497.17,
+      "banner": [20, 20, 728, 288.17],
+      "overlay": [166, 20, 436.01, 288.17]
+    },
+    "product-section": {
+      "master": "85:30091",
+      "padding": [30, 20, 30, 20],
+      "height": 1723.67,
+      "grid": { "width": 238.67, "height": 396.67, "columns": 3, "gap": 6, "top": 89 },
+      "title": { "y": 35.5, "h": 28 },
+      "choice": { "y": 30, "h": 39 }
+    },
+    "category-section": {
+      "master": "87:25987",
+      "padding": [30, 20, 30, 20],
+      "height": 925,
+      "grid": { "width": 238.67, "height": 193.25, "columns": 3, "gap": 6, "top": 104 },
+      "title": { "y": 35.5, "h": 28 },
+      "choice": { "y": 30, "h": 39 }
+    },
+    "brands-section": {
+      "master": "46:2056",
+      "padding": [40, 20, 40, 20],
+      "height": 120,
+      "arrows": false
+    },
+    "feature-section": {
+      "master": "88:25211",
+      "padding": [30, 20, 30, 20],
+      "height": 1116.53,
+      "grid": { "width": 361, "height": 328.51, "columns": 2, "gap": 6, "top": 89 },
+      "title": { "y": 35.5, "h": 28 },
+      "choice": { "y": 30, "h": 39 }
+    },
+    "blog-section": {
+      "master": "90:38761",
+      "padding": [30, 20, 30, 20],
+      "height": 357.32,
+      "grid": { "width": 261, "height": 249.32, "columns": 5, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "gallery-section": {
+      "master": "90:27028",
+      "padding": [30, 10, 30, 10],
+      "height": 430.68,
+      "grid": { "width": 231.75, "height": 231.68, "columns": 4, "gap": 24, "top": 169 },
+      "title": { "y": 30, "h": 28 },
+      "lead": { "y": 80, "h": 69 }
+    },
+    "collection-section": {
+      "master": "65:1894",
+      "padding": [30, 20, 30, 20],
+      "height": 338.76,
+      "grid": { "width": 226.67, "height": 230.76, "columns": 3, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "service-section": {
+      "master": "89:25088",
+      "padding": [30, 20, 30, 20],
+      "height": 427.87,
+      "grid": { "width": 238.67, "height": 319.87, "columns": 3, "gap": 6, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "promo-section": {
+      "master": "91:25887",
+      "padding": [20, 20, 20, 20],
+      "height": 170,
+      "banner": [20, 20, 728, 130]
+    },
+    "sale-section": {
+      "master": "90:26408",
+      "padding": [30, 20, 30, 20],
+      "height": 392.6,
+      "grid": { "width": 283, "height": 284.6, "columns": 3, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "video-section": {
+      "master": "90:26544",
+      "padding": [30, 20, 30, 20],
+      "height": 369.97,
+      "grid": { "width": 291.5, "height": 241.97, "columns": 4, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "vision-section": {
+      "master": "88:25460",
+      "padding": [30, 20, 30, 20],
+      "height": 557.02,
+      "grid": { "width": 352, "height": 285.02, "columns": 2, "gap": 24, "top": 242 },
+      "title": { "y": 30, "h": 32 },
+      "lead": { "y": 90, "h": 60 },
+      "choice": { "y": 178, "h": 44 }
+    },
+    "review-section": {
+      "master": "90:26741",
+      "padding": [30, 20, 30, 20],
+      "height": 504,
+      "grid": { "width": 630, "height": 396, "columns": 2, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "about-section": {
+      "master": "90:26852",
+      "padding": [30, 20, 30, 20],
+      "height": 1106,
+      "grid": { "width": 361, "height": 166, "columns": 2, "gap": 6, "top": 738 },
+      "title": { "y": 50, "h": 28 },
+      "about": { "y": 30, "h": 684 },
+      "benefits": [
+        [
+          "Быстрая доставка",
+          "Бережно доставляем товары  по России за 24 часа"
+        ],
+        [
+          "Клиентский сервис",
+          "Отвечаем на вопросы покупателей в\nтечение 10 минут"
+        ],
+        [
+          "Бонусы за покупки",
+          "Дарим подарки и скидки до 70% всем\nпокупателям"
+        ],
+        [
+          "Доступные цены",
+          "Работаем напрямую с ведущими\nпроизводителями"
+        ]
+      ]
+    },
+    "footer": {
+      "master": "73:4498",
+      "padding": [30, 20, 0, 20],
+      "height": 602
+    }
+  },
+  "1000": {
+    "header": {
+      "master": "87:24700",
+      "padding": [18, 20, 18, 20],
+      "height": 80
+    },
+    "hero-section": {
+      "master": "26:204",
+      "padding": [30, 20, 30, 20],
+      "height": 371.31,
+      "banner": [20, 30, 960, 311.31],
+      "overlay": [508.98, 30, 471.02, 311.31]
+    },
+    "product-section": {
+      "master": "85:27128",
+      "padding": [30, 20, 30, 20],
+      "height": 1311.5,
+      "grid": { "width": 235.5, "height": 393.5, "columns": 4, "gap": 6, "top": 89 },
+      "title": { "y": 35.5, "h": 28 },
+      "choice": { "y": 30, "h": 39 }
+    },
+    "category-section": {
+      "master": "32:1288",
+      "padding": [30, 20, 30, 20],
+      "height": 444.15,
+      "grid": { "width": 187.2, "height": 151.58, "columns": 5, "gap": 6, "top": 105 },
+      "title": { "y": 36, "h": 28 },
+      "choice": { "y": 30.5, "h": 39 }
+    },
+    "brands-section": {
+      "master": "46:2056",
+      "padding": [40, 20, 40, 20],
+      "height": 120,
+      "arrows": true
+    },
+    "feature-section": {
+      "master": "47:2396",
+      "padding": [30, 20, 30, 20],
+      "height": 708.4,
+      "grid": { "width": 320, "height": 291.2, "columns": 3, "gap": 2, "top": 90 },
+      "title": { "y": 36, "h": 28 },
+      "choice": { "y": 30.5, "h": 39 }
+    },
+    "blog-section": {
+      "master": "55:5438",
+      "padding": [30, 20, 30, 20],
+      "height": 350.08,
+      "grid": { "width": 172.8, "height": 219.08, "columns": 5, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "gallery-section": {
+      "master": "55:5472",
+      "padding": [30, 20, 30, 20],
+      "height": 356.08,
+      "grid": { "width": 222, "height": 182.08, "columns": 4, "gap": 24, "top": 144 },
+      "title": { "y": 30, "h": 28 },
+      "lead": { "y": 80, "h": 44 }
+    },
+    "collection-section": {
+      "master": "65:1894",
+      "padding": [30, 20, 30, 20],
+      "height": 417.49,
+      "grid": { "width": 304, "height": 309.49, "columns": 3, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "service-section": {
+      "master": "65:2207",
+      "padding": [30, 20, 30, 20],
+      "height": 452.68,
+      "grid": { "width": 304, "height": 344.68, "columns": 3, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "promo-section": {
+      "master": "91:25885",
+      "padding": [30, 20, 30, 20],
+      "height": 240,
+      "banner": [20, 30, 960, 180]
+    },
+    "sale-section": {
+      "master": "69:2820",
+      "padding": [30, 20, 30, 20],
+      "height": 354.38,
+      "grid": { "width": 304, "height": 246.38, "columns": 3, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "video-section": {
+      "master": "69:3017",
+      "padding": [30, 20, 30, 20],
+      "height": 385.87,
+      "grid": { "width": 222, "height": 231.87, "columns": 4, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "vision-section": {
+      "master": "54:5338",
+      "padding": [30, 20, 30, 20],
+      "height": 659.95,
+      "grid": { "width": 468, "height": 378.95, "columns": 2, "gap": 24, "top": 251 },
+      "title": { "y": 30, "h": 32 },
+      "lead": { "y": 90, "h": 69 },
+      "choice": { "y": 187, "h": 44 }
+    },
+    "review-section": {
+      "master": "69:3139",
+      "padding": [30, 20, 30, 20],
+      "height": 596,
+      "grid": { "width": 468, "height": 488, "columns": 2, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "about-section": {
+      "master": "73:3514",
+      "padding": [30, 20, 30, 20],
+      "height": 815,
+      "grid": { "width": 222, "height": 186, "columns": 4, "gap": 24, "top": 599 },
+      "title": { "y": 70, "h": 28 },
+      "about": { "y": 30, "h": 545 },
+      "benefits": [
+        [
+          "Быстрая доставка",
+          "Бережно доставляем товары по России за 24 часа"
+        ],
+        [
+          "Клиентский сервис",
+          "Отвечаем на вопросы покупателей в\nтечение 10 минут"
+        ],
+        [
+          "Бонусы за покупки",
+          "Дарим подарки и скидки до 70% всем\nпокупателям"
+        ],
+        [
+          "Доступные цены",
+          "Работаем напрямую с ведущими\nпроизводителями"
+        ]
+      ]
+    },
+    "footer": {
+      "master": "73:4498",
+      "padding": [30, 20, 0, 20],
+      "height": 560
+    }
+  },
+  "1200": {
+    "header": {
+      "master": "29:906",
+      "padding": [0, 40, 18, 40],
+      "height": 161
+    },
+    "hero-section": {
+      "master": "26:204",
+      "padding": [20, 40, 20, 40],
+      "height": 403.19,
+      "banner": [40, 20, 1120, 363.19],
+      "overlay": [610.47, 20, 549.53, 363.19]
+    },
+    "product-section": {
+      "master": "26:471",
+      "padding": [30, 40, 30, 40],
+      "height": 1126,
+      "grid": { "width": 219.2, "height": 500, "columns": 5, "gap": 6, "top": 90 },
+      "title": { "y": 36, "h": 28 },
+      "choice": { "y": 30.5, "h": 39 }
+    },
+    "category-section": {
+      "master": "32:1288",
+      "padding": [30, 40, 30, 40],
+      "height": 495.97,
+      "grid": { "width": 219.2, "height": 177.49, "columns": 5, "gap": 6, "top": 105 },
+      "title": { "y": 36, "h": 28 },
+      "choice": { "y": 30.5, "h": 39 }
+    },
+    "brands-section": {
+      "master": "46:2056",
+      "padding": [40, 40, 40, 40],
+      "height": 120,
+      "arrows": true
+    },
+    "feature-section": {
+      "master": "47:2396",
+      "padding": [30, 40, 30, 40],
+      "height": 798.19,
+      "grid": { "width": 369.33, "height": 336.09, "columns": 3, "gap": 6, "top": 90 },
+      "title": { "y": 36, "h": 28 },
+      "choice": { "y": 30.5, "h": 39 }
+    },
+    "blog-section": {
+      "master": "55:5438",
+      "padding": [30, 40, 30, 40],
+      "height": 371.57,
+      "grid": { "width": 204.8, "height": 217.57, "columns": 5, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "gallery-section": {
+      "master": "55:5472",
+      "padding": [30, 40, 30, 40],
+      "height": 388.89,
+      "grid": { "width": 262, "height": 214.89, "columns": 4, "gap": 24, "top": 144 },
+      "title": { "y": 30, "h": 28 },
+      "lead": { "y": 80, "h": 44 }
+    },
+    "collection-section": {
+      "master": "65:1894",
+      "padding": [30, 40, 30, 40],
+      "height": 471.79,
+      "grid": { "width": 357.33, "height": 363.79, "columns": 3, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "service-section": {
+      "master": "65:2207",
+      "padding": [30, 40, 30, 40],
+      "height": 488.41,
+      "grid": { "width": 357.33, "height": 380.41, "columns": 3, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "promo-section": {
+      "master": "91:25883",
+      "padding": [40, 40, 40, 40],
+      "height": 260,
+      "banner": [40, 40, 1120, 180]
+    },
+    "vision-section": {
+      "master": "54:5338",
+      "padding": [30, 40, 30, 40],
+      "height": 701.73,
+      "grid": { "width": 548, "height": 443.73, "columns": 2, "gap": 24, "top": 228 },
+      "title": { "y": 30, "h": 32 },
+      "lead": { "y": 90, "h": 46 },
+      "choice": { "y": 164, "h": 44 }
+    },
+    "sale-section": {
+      "master": "69:2820",
+      "padding": [30, 40, 30, 40],
+      "height": 397.61,
+      "grid": { "width": 357.33, "height": 289.61, "columns": 3, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "video-section": {
+      "master": "69:3017",
+      "padding": [30, 40, 30, 40],
+      "height": 408.37,
+      "grid": { "width": 262, "height": 254.37, "columns": 4, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "review-section": {
+      "master": "69:3139",
+      "padding": [30, 40, 30, 40],
+      "height": 550,
+      "grid": { "width": 548, "height": 442, "columns": 2, "gap": 24, "top": 78 },
+      "title": { "y": 30, "h": 28 }
+    },
+    "about-section": {
+      "master": "73:3514",
+      "padding": [80, 112, 80, 112],
+      "height": 927,
+      "grid": { "width": 226, "height": 186, "columns": 4, "gap": 24, "top": 661 },
+      "title": { "y": 120, "h": 40 },
+      "about": { "y": 80, "h": 557 },
+      "benefits": [
+        [
+          "Быстрая доставка",
+          "Бережно доставляем товары по России за 24 часа"
+        ],
+        [
+          "Клиентский сервис",
+          "Отвечаем на вопросы покупателей в\nтечение 10 минут"
+        ],
+        [
+          "Бонусы за покупки",
+          "Дарим подарки и скидки до 70% всем\nпокупателям"
+        ],
+        [
+          "Доступные цены",
+          "Работаем напрямую с ведущими\nпроизводителями"
+        ]
+      ]
+    },
+    "footer": {
+      "master": "73:4498",
+      "padding": [30, 40, 0, 40],
+      "height": 518
+    }
+  },
+  "1296": {
+    "header": {
+      "master": "29:906",
+      "padding": [0, 312, 18, 312],
+      "height": 161
+    },
+    "hero-section": {
+      "master": "26:204",
+      "padding": [35, 312, 35, 312],
+      "height": 490.26,
+      "banner": [312, 35, 1296, 420.26],
+      "overlay": [972.12, 35, 635.88, 420.26]
+    },
+    "product-section": {
+      "master": "26:471",
+      "padding": [80, 312, 80, 312],
+      "height": 1241,
+      "grid": { "width": 254.4, "height": 500, "columns": 5, "gap": 6, "top": 155 },
+      "title": { "y": 80, "h": 40 },
+      "choice": { "y": 80.5, "h": 39 }
+    },
+    "category-section": {
+      "master": "32:1288",
+      "padding": [80, 312, 80, 312],
+      "height": 652.98,
+      "grid": { "width": 254.4, "height": 205.99, "columns": 5, "gap": 6, "top": 155 },
+      "title": { "y": 80, "h": 40 },
+      "choice": { "y": 80.5, "h": 39 }
+    },
+    "brands-section": {
+      "master": "46:2056",
+      "padding": [60, 312, 60, 312],
+      "height": 160,
+      "arrows": true
+    },
+    "feature-section": {
+      "master": "47:2396",
+      "padding": [80, 312, 80, 312],
+      "height": 1019.96,
+      "grid": { "width": 428, "height": 389.48, "columns": 3, "gap": 6, "top": 155 },
+      "title": { "y": 80, "h": 40 },
+      "choice": { "y": 80.5, "h": 39 }
+    },
+    "blog-section": {
+      "master": "55:5438",
+      "padding": [80, 312, 80, 312],
+      "height": 461.22,
+      "grid": { "width": 240, "height": 241.22, "columns": 5, "gap": 24, "top": 140 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "gallery-section": {
+      "master": "55:5472",
+      "padding": [80, 312, 80, 312],
+      "height": 536.98,
+      "grid": { "width": 306, "height": 250.98, "columns": 4, "gap": 24, "top": 206 },
+      "title": { "y": 80, "h": 40 },
+      "lead": { "y": 142, "h": 44 }
+    },
+    "collection-section": {
+      "master": "65:1894",
+      "padding": [80, 312, 80, 312],
+      "height": 715.52,
+      "grid": { "width": 472, "height": 480.52, "columns": 3, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "service-section": {
+      "master": "65:2207",
+      "padding": [80, 312, 80, 312],
+      "height": 654.72,
+      "grid": { "width": 416, "height": 419.72, "columns": 3, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "promo-section": {
+      "master": "69:2302",
+      "padding": [80, 312, 80, 312],
+      "height": 340,
+      "banner": [312, 80, 1296, 180]
+    },
+    "sale-section": {
+      "master": "69:2820",
+      "padding": [80, 312, 80, 312],
+      "height": 572.16,
+      "grid": { "width": 416, "height": 337.16, "columns": 3, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "vision-section": {
+      "master": "54:5338",
+      "padding": [80, 312, 80, 312],
+      "height": 887.98,
+      "grid": { "width": 636, "height": 514.98, "columns": 2, "gap": 24, "top": 293 },
+      "title": { "y": 80, "h": 32 },
+      "lead": { "y": 140, "h": 46 },
+      "choice": { "y": 214, "h": 44 }
+    },
+    "video-section": {
+      "master": "69:3017",
+      "padding": [80, 312, 80, 312],
+      "height": 560.12,
+      "grid": { "width": 306, "height": 279.12, "columns": 4, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "review-section": {
+      "master": "69:3139",
+      "padding": [80, 312, 80, 312],
+      "height": 631,
+      "grid": { "width": 636, "height": 396, "columns": 2, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "about-section": {
+      "master": "73:3514",
+      "padding": [80, 112, 80, 112],
+      "height": 795,
+      "grid": { "width": 406, "height": 169, "columns": 4, "gap": 24, "top": 546 },
+      "title": { "y": 120, "h": 40 },
+      "about": { "y": 80, "h": 442 },
+      "benefits": [
+        [
+          "Быстрая доставка",
+          "Бережно доставляем товары по России за 24 часа"
+        ],
+        [
+          "Клиентский сервис",
+          "Отвечаем на вопросы покупателей в\nтечение 10 минут"
+        ],
+        [
+          "Бонусы за покупки",
+          "Дарим подарки и скидки до 70% всем\nпокупателям"
+        ],
+        [
+          "Доступные цены",
+          "Работаем напрямую с ведущими\nпроизводителями"
+        ]
+      ]
+    },
+    "footer": {
+      "master": "73:4498",
+      "padding": [80, 312, 0, 312],
+      "height": 568
+    }
+  },
+  "1500": {
+    "header": {
+      "master": "29:906",
+      "padding": [0, 210, 18, 210],
+      "height": 161
+    },
+    "hero-section": {
+      "master": "26:204",
+      "padding": [35, 210, 35, 210],
+      "height": 556.42,
+      "banner": [210, 35, 1500, 486.42],
+      "overlay": [974.03, 35, 735.97, 486.42]
+    },
+    "product-section": {
+      "master": "26:471",
+      "padding": [80, 210, 80, 210],
+      "height": 1241,
+      "grid": { "width": 295.2, "height": 500, "columns": 5, "gap": 6, "top": 155 },
+      "title": { "y": 80, "h": 40 },
+      "choice": { "y": 80.5, "h": 39 }
+    },
+    "category-section": {
+      "master": "32:1288",
+      "padding": [80, 210, 80, 210],
+      "height": 719.05,
+      "grid": { "width": 295.2, "height": 239.02, "columns": 5, "gap": 6, "top": 155 },
+      "title": { "y": 80, "h": 40 },
+      "choice": { "y": 80.5, "h": 39 }
+    },
+    "brands-section": {
+      "master": "46:2056",
+      "padding": [60, 210, 60, 210],
+      "height": 160,
+      "arrows": true
+    },
+    "feature-section": {
+      "master": "47:2396",
+      "padding": [80, 210, 80, 210],
+      "height": 1143.72,
+      "grid": { "width": 496, "height": 451.36, "columns": 3, "gap": 6, "top": 155 },
+      "title": { "y": 80, "h": 40 },
+      "choice": { "y": 80.5, "h": 39 }
+    },
+    "blog-section": {
+      "master": "55:5438",
+      "padding": [80, 210, 80, 210],
+      "height": 488.63,
+      "grid": { "width": 280.8, "height": 268.63, "columns": 5, "gap": 24, "top": 140 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "gallery-section": {
+      "master": "55:5472",
+      "padding": [80, 210, 80, 210],
+      "height": 578.81,
+      "grid": { "width": 357, "height": 292.81, "columns": 4, "gap": 24, "top": 206 },
+      "title": { "y": 80, "h": 40 },
+      "lead": { "y": 142, "h": 44 }
+    },
+    "collection-section": {
+      "master": "65:1894",
+      "padding": [80, 210, 80, 210],
+      "height": 715.52,
+      "grid": { "width": 472, "height": 480.52, "columns": 3, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "service-section": {
+      "master": "65:2207",
+      "padding": [80, 210, 80, 210],
+      "height": 700.28,
+      "grid": { "width": 484, "height": 465.28, "columns": 3, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "promo-section": {
+      "master": "69:2302",
+      "padding": [80, 210, 80, 210],
+      "height": 340,
+      "banner": [210, 80, 1500, 180]
+    },
+    "sale-section": {
+      "master": "69:2820",
+      "padding": [80, 210, 80, 210],
+      "height": 627.27,
+      "grid": { "width": 484, "height": 392.27, "columns": 3, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "vision-section": {
+      "master": "54:5338",
+      "padding": [80, 210, 80, 210],
+      "height": 970.57,
+      "grid": { "width": 738, "height": 597.57, "columns": 2, "gap": 24, "top": 293 },
+      "title": { "y": 80, "h": 32 },
+      "lead": { "y": 140, "h": 46 },
+      "choice": { "y": 214, "h": 44 }
+    },
+    "video-section": {
+      "master": "69:3017",
+      "padding": [80, 210, 80, 210],
+      "height": 542.81,
+      "grid": { "width": 357, "height": 284.81, "columns": 4, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "review-section": {
+      "master": "69:3139",
+      "padding": [80, 210, 80, 210],
+      "height": 608,
+      "grid": { "width": 738, "height": 373, "columns": 2, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "about-section": {
+      "master": "73:3514",
+      "padding": [80, 112, 80, 112],
+      "height": 795,
+      "grid": { "width": 406, "height": 169, "columns": 4, "gap": 24, "top": 546 },
+      "title": { "y": 120, "h": 40 },
+      "about": { "y": 80, "h": 442 },
+      "benefits": [
+        [
+          "Быстрая доставка",
+          "Бережно доставляем товары по России за 24 часа"
+        ],
+        [
+          "Клиентский сервис",
+          "Отвечаем на вопросы покупателей в\nтечение 10 минут"
+        ],
+        [
+          "Бонусы за покупки",
+          "Дарим подарки и скидки до 70% всем\nпокупателям"
+        ],
+        [
+          "Доступные цены",
+          "Работаем напрямую с ведущими\nпроизводителями"
+        ]
+      ]
+    },
+    "footer": {
+      "master": "73:4498",
+      "padding": [80, 210, 0, 210],
+      "height": 568
+    }
+  },
+  "1696": {
+    "header": {
+      "master": "29:906",
+      "padding": [0, 112, 18, 112],
+      "height": 161
+    },
+    "hero-section": {
+      "master": "26:204",
+      "padding": [35, 112, 35, 112],
+      "height": 619.98,
+      "banner": [112, 35, 1696, 549.98],
+      "overlay": [975.86, 35, 832.14, 549.98]
+    },
+    "product-section": {
+      "master": "26:471",
+      "padding": [80, 112, 80, 112],
+      "height": 1241,
+      "grid": { "width": 334.4, "height": 500, "columns": 5, "gap": 6, "top": 155 },
+      "title": { "y": 80, "h": 40 },
+      "choice": { "y": 80.5, "h": 39 }
+    },
+    "category-section": {
+      "master": "32:1288",
+      "padding": [80, 112, 80, 112],
+      "height": 782.53,
+      "grid": { "width": 334.4, "height": 270.76, "columns": 5, "gap": 6, "top": 155 },
+      "title": { "y": 80, "h": 40 },
+      "choice": { "y": 80.5, "h": 39 }
+    },
+    "brands-section": {
+      "master": "46:2056",
+      "padding": [60, 112, 60, 112],
+      "height": 160,
+      "arrows": true
+    },
+    "feature-section": {
+      "master": "47:2396",
+      "padding": [80, 112, 80, 112],
+      "height": 1262.63,
+      "grid": { "width": 561.33, "height": 510.81, "columns": 3, "gap": 6, "top": 155 },
+      "title": { "y": 80, "h": 40 },
+      "choice": { "y": 80.5, "h": 39 }
+    },
+    "blog-section": {
+      "master": "55:5438",
+      "padding": [80, 112, 80, 112],
+      "height": 514.96,
+      "grid": { "width": 320, "height": 294.96, "columns": 5, "gap": 24, "top": 140 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "gallery-section": {
+      "master": "55:5472",
+      "padding": [80, 112, 80, 112],
+      "height": 619,
+      "grid": { "width": 406, "height": 333, "columns": 4, "gap": 24, "top": 206 },
+      "title": { "y": 80, "h": 40 },
+      "lead": { "y": 142, "h": 44 }
+    },
+    "collection-section": {
+      "master": "65:1894",
+      "padding": [80, 112, 80, 112],
+      "height": 794.25,
+      "grid": { "width": 549.33, "height": 559.25, "columns": 3, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "service-section": {
+      "master": "65:2207",
+      "padding": [80, 112, 80, 112],
+      "height": 744.05,
+      "grid": { "width": 549.33, "height": 509.05, "columns": 3, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "promo-section": {
+      "master": "69:2302",
+      "padding": [80, 112, 80, 112],
+      "height": 340,
+      "banner": [112, 80, 1696, 180]
+    },
+    "sale-section": {
+      "master": "69:2820",
+      "padding": [80, 112, 80, 112],
+      "height": 680.22,
+      "grid": { "width": 549.33, "height": 445.22, "columns": 3, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "vision-section": {
+      "master": "54:5338",
+      "padding": [80, 112, 80, 112],
+      "height": 1049.92,
+      "grid": { "width": 836, "height": 676.92, "columns": 2, "gap": 24, "top": 293 },
+      "title": { "y": 80, "h": 32 },
+      "lead": { "y": 140, "h": 46 },
+      "choice": { "y": 214, "h": 44 }
+    },
+    "video-section": {
+      "master": "69:3017",
+      "padding": [80, 112, 80, 112],
+      "height": 570.37,
+      "grid": { "width": 406, "height": 312.37, "columns": 4, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "review-section": {
+      "master": "69:3139",
+      "padding": [80, 112, 80, 112],
+      "height": 585,
+      "grid": { "width": 836, "height": 350, "columns": 2, "gap": 24, "top": 155 },
+      "title": { "y": 80, "h": 40 }
+    },
+    "about-section": {
+      "master": "73:3514",
+      "padding": [80, 112, 80, 112],
+      "height": 795,
+      "grid": { "width": 406, "height": 169, "columns": 4, "gap": 24, "top": 546 },
+      "title": { "y": 120, "h": 40 },
+      "about": { "y": 80, "h": 442 },
+      "benefits": [
+        [
+          "Быстрая доставка",
+          "Бережно доставляем товары по России за 24 часа"
+        ],
+        [
+          "Клиентский сервис",
+          "Отвечаем на вопросы покупателей в\nтечение 10 минут"
+        ],
+        [
+          "Бонусы за покупки",
+          "Дарим подарки и скидки до 70% всем\nпокупателям"
+        ],
+        [
+          "Доступные цены",
+          "Работаем напрямую с ведущими\nпроизводителями"
+        ]
+      ]
+    },
+    "footer": {
+      "master": "73:4498",
+      "padding": [80, 112, 0, 112],
+      "height": 568
+    }
+  }
+}

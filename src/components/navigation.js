@@ -17,16 +17,18 @@ function storeSearch() {
   form.addEventListener('submit', event => {
     event.preventDefault();
     const query = input.value.trim().toLocaleLowerCase('ru');
-    const hits = categories.filter(name => name.toLocaleLowerCase('ru').includes(query));
+    const scope = form.querySelector('select')?.value;
+    const hits = categories.filter(name => (!scope || scope === name) && name.toLocaleLowerCase('ru').includes(query));
     notice('Результаты поиска', element('p','',hits.join(' · ') || 'Категории по запросу не найдены.'));
   });
   return form;
 }
 
-export function header(width) {
+export function header(width, home) {
   const large = width > 1000;
   const logo = icon('29:920','Маркет PRO');
   logo.className = 'store-header__logo';
+  if (home && home.theme !== 'red') logo.src = '/media/home/' + (home.theme === 'dark' ? 'logo-dark' : 'logo') + '.svg';
   const menu = iconButton('menu','Открыть каталог',catalogMenu);
   const accounts = [['user','Войти'],['compare','Сравнение'],['heart','Избранное'],['bag','Корзина']];
   const actions = element('div','store-header__actions');
@@ -39,7 +41,17 @@ export function header(width) {
   if (!large) bar.append(menu);
   bar.append(logo);
   if (width > 375) bar.append(button([icon('menu'),'Каталог'],'button',catalogMenu));
-  if (large) bar.append(storeSearch());
+  if (large) {
+    const search = storeSearch();
+    if (home) {
+      const scope = element('select', 'store-search__scope');
+      scope.setAttribute('aria-label', 'Область поиска');
+      scope.add(new Option('Каталог', ''));
+      for (const category of categories) scope.add(new Option(category, category));
+      search.insertBefore(scope, search.lastChild);
+    }
+    bar.append(search);
+  }
   else actions.prepend(iconButton('phone','Контактный телефон',()=>notice('Контакты',element('p','','+7 100 000-00-00'))),
     iconButton('search','Открыть поиск',()=>notice('Поиск по каталогу',storeSearch())));
   bar.append(actions);
@@ -50,8 +62,22 @@ export function header(width) {
       mode.replaceChildren(icon(dark ? 'sun' : 'moon'));
       mode.setAttribute('aria-label', dark ? 'Включить светлую тему' : 'Включить тёмную тему');
     });
+    let modes = mode;
+    if (home) {
+      const light = iconButton('sun', 'Светлая тема', () => { if (home.theme === 'dark') home.switchTheme(); });
+      const dark = iconButton('moon', 'Тёмная тема', () => { if (home.theme !== 'dark') home.switchTheme(); });
+      light.setAttribute('aria-pressed', String(home.theme !== 'dark'));
+      dark.setAttribute('aria-pressed', String(home.theme === 'dark'));
+      modes = element('div', 'store-header__modes', light, dark);
+    }
+    const navigation = choices(navLabels, 'store-header__nav', -1);
+    const phone = element('span', '', '+7 100 000-00-00');
+    if (home) {
+      for (const label of ['Услуги', 'Компания']) navigation.children[navLabels.indexOf(label)].append(icon('down'));
+      phone.append(icon('down'));
+    }
     root.append(element('div','store-header__top',element('span','',icon('location'),'Москва'),
-      choices(navLabels,'store-header__nav',-1),element('span','', '+7 100 000-00-00'),demoAction('Заказать звонок'),mode));
+      navigation,phone,demoAction('Заказать звонок'),modes));
   }
   root.append(bar);
   if (large) root.append(choices(categories,'store-header__nav',-1));
