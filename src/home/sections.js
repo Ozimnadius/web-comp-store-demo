@@ -77,8 +77,11 @@ export function homeSection(kind, spec, width, theme, switchTheme) {
     if (spec.grid) {
       node.style.setProperty('--tile-ratio', spec.grid.width / spec.grid.height);
       node.querySelector('.strip').style.minHeight = '';
-      if (kind === 'category-section') {
+      if (kind === 'category-section' || kind === 'vision-section') {
         node.querySelectorAll('.card__title').forEach(title => title.append(icon('right')));
+      }
+      if (kind === 'collection-section') {
+        node.style.setProperty('--collection-limit', (spec.grid.columns * spec.grid.width + (spec.grid.columns - 1) * spec.grid.gap) + 'px');
       }
       if (kind === 'about-section' && theme === 'blue') {
         node.querySelectorAll('.card--benefit .icon').forEach((icon, index) => {

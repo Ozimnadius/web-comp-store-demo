@@ -76,8 +76,9 @@ export function header(width, home) {
       for (const label of ['Услуги', 'Компания']) navigation.children[navLabels.indexOf(label)].append(icon('down'));
       phone.append(icon('down'));
     }
+    const callback = demoAction('Заказать звонок');
     root.append(element('div','store-header__top',element('span','',icon('location'),'Москва'),
-      navigation,phone,demoAction('Заказать звонок'),modes));
+      navigation, home ? element('div','store-header__contact',phone,callback) : [phone,callback],modes));
   }
   root.append(bar);
   if (large) root.append(choices(categories,'store-header__nav',-1));
